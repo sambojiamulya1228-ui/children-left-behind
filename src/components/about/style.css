@@ -45,7 +45,23 @@ align-items: center;
 .wpo-about-img-3 .imggg{
     float: right;
 }
-
+@media(max-width:992px){
+    .wpo-about-text.text-right{
+    text-align: unset;
+}
+.wpo-about-text.text-right .wpo-section-title{
+    text-align: unset;
+}
+.wpo-about-text.text-right .btns{
+  float: unset;
+}
+.wpo-about-img-3 .img{
+    float: unset;
+}
+.wpo-about-img-3 .imggg{
+    float: unset;
+}
+}
 @media(max-width: 1200px) {
 
     .wpo-about-img,
