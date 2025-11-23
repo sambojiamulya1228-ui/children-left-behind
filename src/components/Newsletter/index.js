@@ -12,7 +12,7 @@ const Newsletter = (props) => {
                 <div className="row">
                     <div className="col col-md-6 offset-lg-3 col-sm-8 offset-md-2">
                         <div className="wpo-newsletter">
-                            <h3>Follow us For ferther information</h3>
+                            <p>Get the latest updates about ChildrenLeftBehind’s new  updates and programs.</p>
                             <div className="wpo-newsletter-form">
                                 <form onSubmit={SubmitHandler}>
                                     <div>

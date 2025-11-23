@@ -14,6 +14,7 @@ import Scrollbar from '../../components/scrollbar'
 import CounterSection from '../../components/counter'
 import Howworks from '../../components/howworks'
 import Lifeofchild from '../../components/lifeofchild'
+import Needs from '../../components/needs'
 
 
 const HomePage3 =() => {
@@ -29,9 +30,7 @@ const HomePage3 =() => {
               <Lifeofchild/>
             <CaseSlide/>
             <BlogSection/>
-          
-            <WorldSection worldclass={'wpo-world-area-2'}/>
-            <EventSection/>
+            <Needs/>
             <CtaSection ctaclass={'wpo-cta-area-2'}/>
             <Footer/>
             <Scrollbar/>

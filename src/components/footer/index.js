@@ -19,55 +19,48 @@ const Footer = (props) =>{
             <div className="container">
                 <div className="row">
                     <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
-                        <div className="widget about-widget">
-                            <div className="logo widget-title">
-                                <img src={Logo} alt=""/>
+                         <div className="widget link-widget">
+                            <div className="widget-title">
+                                <h3>Partners</h3>
                             </div>
-                            <p>Build and Earn with your online store with lots of cool and exclusive wpo-features </p>
                             <ul>
-                                <li><Link onClick={ClickHandler} to="/home"><i className="ti-facebook"></i></Link></li>
-                                <li><Link onClick={ClickHandler} to="/home"><i className="ti-twitter-alt"></i></Link></li>
-                                <li><Link onClick={ClickHandler} to="/home"><i className="ti-instagram"></i></Link></li>
-                                <li><Link onClick={ClickHandler} to="/home"><i className="ti-google"></i></Link></li>
+                                <li><Link onClick={ClickHandler} to="/about">Child Guidance Center</Link></li>
+                                <li><Link onClick={ClickHandler} to="/case">Community and Rural Development Society</Link></li>
+                                <li><Link onClick={ClickHandler} to="/case">AASHA JYOTHI Welfare Association for Disability</Link></li>
+                                <li><Link onClick={ClickHandler} to="/contact">Pavani Special School</Link></li>
                             </ul>
                         </div>
                     </div>
                     <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
                         <div className="widget link-widget resource-widget">
+                           <div className="widget link-widget">
                             <div className="widget-title">
-                                <h3>Top News</h3>
+                                <h3>Programs</h3>
                             </div>
-                            <div className="news-wrap">
-                                <div className="news-img">
-                                    <img src={n1} alt=""/>
-                                </div>
-                                <div className="news-text">
-                                    <h3><Link onClick={ClickHandler} to="/blog">Education for all poor children</Link></h3>
-                                    <span>12 Nov, 2020</span>
-                                </div>
-                            </div>
-                            <div className="news-wrap">
-                                <div className="news-img">
-                                    <img src={n2} alt=""/>
-                                </div>
-                                <div className="news-text">
-                                    <h3><Link onClick={ClickHandler} to="/blog">Education for all poor children</Link></h3>
-                                    <span>12 Nov, 2020</span>
-                                </div>
-                            </div>
+                            <ul>
+                                <li><Link onClick={ClickHandler} to="/about">Education</Link></li>
+                                <li><Link onClick={ClickHandler} to="/case">Medical Campaigns</Link></li>
+                                <li><Link onClick={ClickHandler} to="/case">Supporting the disabled</Link></li>
+                                <li><Link onClick={ClickHandler} to="/contact">Mission to india</Link></li>
+                                <li><Link onClick={ClickHandler} to="/event">Act of child Protection</Link></li>
+                                <li><Link onClick={ClickHandler} to="/event">Disaster relief</Link></li>
+                                <li><Link onClick={ClickHandler} to="/event">Nurturing playtime</Link></li>
+                            </ul>
+                        </div>
                         </div>
                     </div>
                     <div className="col col-lg-2 col-md-6 col-sm-12 col-12">
                         <div className="widget link-widget">
                             <div className="widget-title">
-                                <h3>Useful Links</h3>
+                                <h3>Quick Links</h3>
                             </div>
                             <ul>
-                                <li><Link onClick={ClickHandler} to="/about">About Us</Link></li>
-                                <li><Link onClick={ClickHandler} to="/case">Our Causes</Link></li>
-                                <li><Link onClick={ClickHandler} to="/case">Our Mission</Link></li>
-                                <li><Link onClick={ClickHandler} to="/contact">Contact Us</Link></li>
-                                <li><Link onClick={ClickHandler} to="/event">Our Event</Link></li>
+                                <li><Link onClick={ClickHandler} to="/about">Stay informed</Link></li>
+                                <li><Link onClick={ClickHandler} to="/case">How to be involved</Link></li>
+                                <li><Link onClick={ClickHandler} to="/case">Financial reports</Link></li>
+                                <li><Link onClick={ClickHandler} to="/contact">Media</Link></li>
+                                <li><Link onClick={ClickHandler} to="/event">Brochures</Link></li>
+                                <li><Link onClick={ClickHandler} to="/event">Financial Accountability</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -92,8 +85,15 @@ const Footer = (props) =>{
         <div className="wpo-lower-footer">
             <div className="container">
                 <div className="row">
-                    <div className="col col-xs-12">
-                        <p className="copyright">&copy; 2020 Nasarna. All rights reserved</p>
+                    <div className="col-lg-6 col-xs-12">
+                         <ul className='d-flex align-items-center  gap-2'>
+                                <li><Link onClick={ClickHandler} className='text-white' to="/about">Terms of Service</Link></li>
+                                <li><Link onClick={ClickHandler} className='text-white' to="/case">Privacy Policy</Link></li>
+                              
+                            </ul>
+                    </div>
+                    <div className="col-lg-6 col-xs-12">
+                        <p className="copyright">&copy; © 2025 ChildrenLeftBehind Inc. is a 501(c)(3) organization. All rights reserved.</p>
                     </div>
                 </div>
             </div>
