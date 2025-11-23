@@ -14,11 +14,12 @@ const BlogSection = (props) => {
     return(
         <div className="wpo-blog-area section-padding">
             <div className="container">
-                <div className="row">
+                <div className="row ">
                     <div className="col-12">
-                        <div className="wpo-section-title">
-                            <span>Our Blog</span>
-                            <h2>Latest News</h2>
+                        <div className="float-left">
+                            <span>Our Blogs</span>
+                            <h2>Hear from our beloved community</h2>
+                            <p>our children and partners love us for our constant support and strive for better future</p>
                         </div>
                     </div>
                 </div>

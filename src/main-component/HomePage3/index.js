@@ -13,6 +13,7 @@ import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 import CounterSection from '../../components/counter'
 import Howworks from '../../components/howworks'
+import Lifeofchild from '../../components/lifeofchild'
 
 
 const HomePage3 =() => {
@@ -25,13 +26,13 @@ const HomePage3 =() => {
             <About/>
               <Mission subclass={'section-padding'}/>
               <Howworks/>
+              <Lifeofchild/>
             <CaseSlide/>
+            <BlogSection/>
           
-            <TeamSection/>
             <WorldSection worldclass={'wpo-world-area-2'}/>
             <EventSection/>
             <CtaSection ctaclass={'wpo-cta-area-2'}/>
-            <BlogSection/>
             <Footer/>
             <Scrollbar/>
         </Fragment>

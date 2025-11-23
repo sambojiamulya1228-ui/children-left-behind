@@ -65,9 +65,9 @@ class CaseSlide extends Component {
               <div className="container">
                   <div className="row">
                       <div className="col-12">
-                          <div className="wpo-section-title">
-                              <span>Our Causes</span>
-                              <h2>Popular Causes What You Should Know</h2>
+                          <div className="text-left">
+                              <h2>News and our media presence</h2>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
                           </div>
                       </div>
                   </div>
@@ -82,26 +82,10 @@ class CaseSlide extends Component {
                                     <div className="wpo-case-content">
                                         <div className="wpo-case-text-top">
                                             <h2>Ensure Education for every poor children</h2>
-                                            <div className="progress-section">
-                                                <div className="process">
-                                                    <div className="progress">
-                                                        <div className="progress-bar">
-                                                            <div className="progress-value"><span>65.5</span>%</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <ul>
-                                                <li><span>Raised:</span> $7,000.00</li>
-                                                <li><span>Goal:</span> $8,000.00</li>
-                                            </ul>
+                                           
+                                           
                                         </div>
-                                        <div className="case-btn">
-                                            <ul>
-                                                <li><Link onClick={ClickHandler} to="/case-single">Learn More</Link></li>
-                                                <li><Link onClick={ClickHandler} to="/donate">Donate Now</Link></li>
-                                            </ul>
-                                        </div>
+                                       
                                     </div>
                                 </div>
                             </div>
@@ -113,26 +97,10 @@ class CaseSlide extends Component {
                                     <div className="wpo-case-content">
                                         <div className="wpo-case-text-top">
                                             <h2>Supply drinking water for the people</h2>
-                                            <div className="progress-section">
-                                                <div className="process">
-                                                    <div className="progress">
-                                                        <div className="progress-bar">
-                                                            <div className="progress-value"><span>40.5</span>%</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <ul>
-                                                <li><span>Raised:</span> $7,000.00</li>
-                                                <li><span>Goal:</span> $8,000.00</li>
-                                            </ul>
+                                            
+                                           
                                         </div>
-                                        <div className="case-btn">
-                                            <ul>
-                                                <li><Link onClick={ClickHandler} to="/case-single">Learn More</Link></li>
-                                                <li><Link onClick={ClickHandler} to="/donate">Donate Now</Link></li>
-                                            </ul>
-                                        </div>
+                                       
                                     </div>
                                 </div>
                             </div>
@@ -144,26 +112,10 @@ class CaseSlide extends Component {
                                     <div className="wpo-case-content">
                                         <div className="wpo-case-text-top">
                                             <h2>Providing Healthy Food for the children</h2>
-                                            <div className="progress-section">
-                                                <div className="process">
-                                                    <div className="progress">
-                                                        <div className="progress-bar">
-                                                            <div className="progress-value"><span>80.5</span>%</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <ul>
-                                                <li><span>Raised:</span> $7,000.00</li>
-                                                <li><span>Goal:</span> $8,000.00</li>
-                                            </ul>
+                                            
+                                           
                                         </div>
-                                        <div className="case-btn">
-                                            <ul>
-                                                <li><Link onClick={ClickHandler} to="/case-single">Learn More</Link></li>
-                                                <li><Link onClick={ClickHandler} to="/donate">Donate Now</Link></li>
-                                            </ul>
-                                        </div>
+                                       
                                     </div>
                                 </div>
                             </div>
@@ -175,26 +127,10 @@ class CaseSlide extends Component {
                                     <div className="wpo-case-content">
                                         <div className="wpo-case-text-top">
                                             <h2>Ensure Education for every poor children</h2>
-                                            <div className="progress-section">
-                                                <div className="process">
-                                                    <div className="progress">
-                                                        <div className="progress-bar">
-                                                            <div className="progress-value"><span>65.5</span>%</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <ul>
-                                                <li><span>Raised:</span> $7,000.00</li>
-                                                <li><span>Goal:</span> $8,000.00</li>
-                                            </ul>
+                                           
+                                           
                                         </div>
-                                        <div className="case-btn">
-                                            <ul>
-                                                <li><Link onClick={ClickHandler} to="/case-single">Learn More</Link></li>
-                                                <li><Link onClick={ClickHandler} to="/donate">Donate Now</Link></li>
-                                            </ul>
-                                        </div>
+                                       
                                     </div>
                                 </div>
                             </div>
