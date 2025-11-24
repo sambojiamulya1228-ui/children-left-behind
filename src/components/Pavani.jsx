@@ -152,8 +152,6 @@ function Pavani() {
                                 Pavani Special School was started on 14th November, 1987 and Ms. Supriya who is the present Secretary for the organization established to cater to the educational and training needs of the differently abled children in the city of Visakhapatnam. Ms. Supriya was deeply touched and by sufferings of few children with mental disability and longed to do something for the individuals with disabilities.
                             </p>
                         </div>
-
-
                         <div>
                             <p>
                                 The school started receiving grant in aid from the Ministry of Social Justice and Empowerment, Government of India from the year 2000.

@@ -25,6 +25,7 @@ import ChildCenter from '../../components/ChildCenter';
 import Cards from '../Cards';
 import Ashajyothi from '../../components/Asha jyothi';
 import Pavani from '../../components/Pavani';
+import Disability from '../Disability';
 
 const AllRoute = () => {
 
@@ -58,6 +59,7 @@ const AllRoute = () => {
           <Route path='/cards' element={<Cards/>}></Route>
           <Route path='/asha' element={<Ashajyothi/>}></Route>
           <Route path='/pavani' element={<Pavani/>}></Route>
+          <Route path='/disability' element={<Disability/>}></Route>
         </Routes>
       </BrowserRouter>
     </div >

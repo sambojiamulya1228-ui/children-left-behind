@@ -29,7 +29,7 @@ const Header = () => {
                                     </li>
                                     <li><Link to="/case" className='drop-downn' title="">Our Programs</Link>
                                         <ul>
-                                            <li><Link to="/case" title="">Supporting Disability</Link></li>
+                                            <li><Link to="/disability" title="">Supporting Disability</Link></li>
                                             <li><Link to="/case-single" title="">Education</Link></li>
                                             <li><Link to="/case-single" title="">Medical Support</Link></li>
                                             <li><Link to="/case-single" title="">Medical Support</Link></li>
