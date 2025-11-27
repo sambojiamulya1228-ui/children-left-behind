@@ -100,3 +100,131 @@
 .project-list li {
   list-style-type: disc !important;
 }
+
+
+/* Section wrapper */
+.contact-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+/* Main form container */
+.contact-container {
+  width: 100%;
+  max-width: 750px;
+  font-family: "Inter", sans-serif;
+}
+
+/* Title and subtitle */
+.contact-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 5px;
+  color: #222;
+  font-weight: 600;
+}
+
+.contact-subtitle {
+  text-align: center;
+  color: #555;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+/* Form row (2 columns on desktop) */
+.form-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Input wrapper */
+.input-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  flex: 1;
+}
+
+.input-box label {
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Inputs + textarea */
+.input-box input,
+.input-box textarea {
+  padding: 12px 14px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.input-box textarea {
+  height: 140px;
+  resize: none;
+}
+
+/* Checkbox grid */
+.checkbox-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px 0;
+  margin-bottom: 20px;
+}
+
+.checkbox-grid label {
+  font-size: 14px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+/* Options title */
+.option-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+/* Newsletter checkbox */
+.newsletter-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 15px 0;
+}
+
+.form-note {
+  font-size: 12px;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* ---------------------- */
+/* RESPONSIVENESS */
+/* ---------------------- */
+
+/* Mobile View */
+@media (max-width: 600px) {
+  .form-row {
+    flex-direction: column;
+  }
+
+  .checkbox-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-title {
+    font-size: 24px;
+  }
+}

@@ -3,6 +3,7 @@ import {Link}  from 'react-router-dom'
 import './style.css'
 import MobileMenu from '../../components/MobileMenu'
 import Logo from '../../images/children-left-behind.png'
+import ContactUs from '../ContactUs'
 
 const HeaderTopbar = () => {
     return(	
@@ -17,7 +18,7 @@ const HeaderTopbar = () => {
                     <div className="col col-md-6 col-sm-5 col-5">
                         <div className="contact-info">
                             <ul className="contact-list d-flex align-items-center justify-content-end">
-                                <li className='d-none d-lg-block'> <Link to="/signup">Contact</Link></li>
+                                <li className='d-none d-lg-block'> <Link to="/Contactus">Contact</Link></li>
                                 <li><Link className="theme-btn m-0" to="/donate">Join Hands</Link></li>
                             
                             </ul>

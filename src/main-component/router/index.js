@@ -31,6 +31,11 @@ import Education from '../../components/Education';
 import Medicalcampaigns from '../Medicalcampaigns';
 import ChildTrafficking from '../ChildTrafficking';
 import TripToIndia from '../../components/TripToIndia';
+import DisasterRelief from '../../components/DisasterRelief';
+import NurturingPlaytime from '../../components/NurturingPlaytime';
+import ContactUs from '../../components/ContactUs';
+import TermsAndConditions from '../../images/TermsAndConditions';
+
 
 const AllRoute = () => {
 
@@ -70,6 +75,10 @@ const AllRoute = () => {
           <Route path='/medical' element={<Medicalcampaigns/>}></Route>
           <Route path='/childtraffic' element={<ChildTrafficking/>}></Route>
           <Route path='/tripofindia' element={<TripToIndia/>}></Route>
+          <Route path='/disasterrelief' element={<DisasterRelief/>}></Route>
+          <Route path='/nurturingplaytime' element={<NurturingPlaytime/>}></Route>
+          <Route path='/contactus' element={<ContactUs/>}></Route>
+          <Route path='/termsandconditions' element={<TermsAndConditions/>}></Route>
         </Routes>
       </BrowserRouter>
     </div >
