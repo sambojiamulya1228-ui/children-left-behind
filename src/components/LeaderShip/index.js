@@ -6,7 +6,7 @@ import "./style.css";
 
 const TeamSection = () => {
     return (
-        <div className="container py-5">
+        <div className="container py-5 leader">
             {/* Section Title */}
             <div className="text-center mb-5">
                 <p className="text-uppercase small fw-bold purplee">Who We Are</p>

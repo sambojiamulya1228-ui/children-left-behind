@@ -11,7 +11,7 @@
 }
 
 .values {
-    padding-top: 14rem !important;
+    padding-top: 2rem !important;
 }
 
 .values .title {
@@ -28,7 +28,7 @@
 
 @media(max-width:992px) {
     .values {
-        padding-top: 3rem !important;
+        padding-top: 1rem !important;
     }
 
 }

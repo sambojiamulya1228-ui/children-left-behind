@@ -28,7 +28,8 @@ const WhatWeDo = () => {
                         className="px-3 py-1 border border-primary rounded-pill small"
                         style={{ fontSize: "12px" }}
                     >
-                        {item}
+                        <i className="fa-solid fa-badge-check"></i>
+{item}
                     </span>
                 ))}
             </div>

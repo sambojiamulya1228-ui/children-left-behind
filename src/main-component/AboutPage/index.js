@@ -15,6 +15,8 @@ import OurMission from '../../components/ourMission'
 import ValuesSection from '../../components/ourValuess'
 import WhatWeDo from '../../components/whatWeDo'
 import LeaderShip from '../../components/LeaderShip'
+import Howworks from '../../components/howworks'
+import BlogSection from '../../components/BlogSection'
 
 
 const CasePage = () => {
@@ -24,11 +26,15 @@ const CasePage = () => {
             {/* <PageTitle pageTitle={'About Us'} pagesub={'About'}/>  */}
             {/* <VedioCta/> */}
             <AboutHero />
+            <WhatWeDo />
+            <CounterSection/>
             <AboutMission subclass={'section-padding'} />
             <OurMission />
-            <ValuesSection />
-            <WhatWeDo />
             <LeaderShip />
+            <ValuesSection />
+             <Howworks/>
+             <Mission subclass={'section-padding'}/>
+             <BlogSection/>
             <Footer />
             <Scrollbar />
         </Fragment>
