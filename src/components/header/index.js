@@ -44,9 +44,9 @@ const Header = () => {
                                             <li><Link to="/childcenter" title="">Center GC</Link></li>
                                             <li><Link to="/pavani" title="">Pavani</Link></li>
                                             <li><Link to="/cards" title="">CARDS</Link></li>
-                                            {/* <li><Link to="/asha" title="">Asha jyothi</Link></li>
-                                            <li><Link to="/case-single" title="">TrueBlue</Link></li>
-                                            <li><Link to="/case-single" title="">Emmi Group</Link></li> */}
+                                            <li><Link to="/asha" title="">Asha jyothi</Link></li>
+                                            {/* <li><Link to="/case-single" title="">TrueBlue</Link></li>
+                                            <li><Link to="/case-single" title="">Emmi Group</Link></li>  */}
 
                                         </ul>
                                     </li>
