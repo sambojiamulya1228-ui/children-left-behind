@@ -4,7 +4,8 @@ import Header from "./header";
 import heroDesktop from "../images/icons/partners-desk.png";
 import heroMobile from "../images/icons/partners-m.png";
 import { useState, useEffect } from "react";
-import BlogSection from "../components/BlogSection";
+import Footer from "../components/footer";
+import BlogSection from "../components/BlogSection"
 import CtaSection from "../components/cta";
 import Needs from "../components/needs";
 // import "../css";
