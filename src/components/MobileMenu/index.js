@@ -9,37 +9,72 @@ const menus = [
         title: 'About Us',
         link: '/about',
     },
-{
-    id: 2,
+    {
+        id: 2,
         title: 'Our Programs',
         link: '/',
         submenu: [
             {
                 id: 31,
-                title: 'Causes',
-                link: '/case'
+                title: 'Supporting Disability',
+                link: '/disability'
             },
             {
                 id: 32,
-                title: 'Causes Single',
-                link: '/case-single'
+                title: 'Education',
+                link: '/education'
+            },
+            {
+                id: 33,
+                title: 'Medical Support',
+                link: '/medical'
+            },
+            {
+                id: 34,
+                title: 'Child trafficking',
+                link: '/childtraffic'
+            },
+            {
+                id: 35,
+                title: 'Trip to India',
+                link: '/tripofindia'
+            },
+            {
+                id: 36,
+                title: 'Before/ After school program',
+                link: '/nurturingplaytime'
+            },
+            {
+                id: 37,
+                title: 'Disaster emergency relief',
+                link: '/disasterrelief'
             }
         ]
     },
-{
-    id: 3,
+    {
+        id: 3,
         title: 'Our Partners',
         link: '/',
         submenu: [
             {
                 id: 41,
-                title: 'Event',
-                link: '/event'
+                title: 'Center GC',
+                link: '/childcenter'
             },
             {
                 id: 42,
-                title: 'Event Single',
-                link: '/event-details'
+                title: 'Pavani',
+                link: '/pavani'
+            },
+            {
+                id: 43,
+                title: 'CARDS',
+                link: '/cards'
+            },
+            {
+                id: 44,
+                title: 'Asha jyothi',
+                link: '/asha'
             }
         ]
     },
@@ -53,13 +88,13 @@ const menus = [
         id: 5,
         title: 'Stay Informed',
         link: '/blog',
-      
+
     },
-    {
-        id: 6,
-        title: 'How to be involved?',
-        link: '/contact',
-    },
+    // {
+    //     id: 6,
+    //     title: 'How to be involved?',
+    //     link: '/contact',
+    // },
     {
         id: 7,
         title: 'Resources',
@@ -67,28 +102,38 @@ const menus = [
         submenu: [
             {
                 id: 41,
-                title: 'Event',
-                link: '/event'
+                title: 'Gallery',
+                link: '/'
             },
             {
                 id: 42,
-                title: 'Event Single',
-                link: '/event-details'
+                title: 'Video',
+                link: '/'
+            },
+            {
+                id: 42,
+                title: 'Brochures',
+                link: '/'
+            },
+            {
+                id: 42,
+                title: 'Flyers',
+                link: '/'
             }
         ]
     },
-     {
+    {
         id: 8,
         title: 'F.A.Q',
         link: '/contact',
     },
-     {
-        id: 9,
-        title: 'Subscribe',
-        link: '/contact',
-    }
-    
-    
+    // {
+    //     id: 9,
+    //     title: 'Subscribe',
+    //     link: '/contact',
+    // }
+
+
 ]
 
 
@@ -129,18 +174,18 @@ export default class MobileMenu extends Component {
                                         {item.submenu ? <i className="fa fa-angle-right" aria-hidden="true"></i> : ''}
                                     </p> : <Link to={item.link}>{item.title}</Link>}
                                     {item.submenu ?
-                                    <Collapse isOpen={item.id === isOpen}>
-                                        <Card>
-                                            <CardBody>
-                                                <ul>
-                                                    {item.submenu.map(submenu => (
-                                                        <li key={submenu.id}><Link className="active" to={submenu.link}>{submenu.title}</Link></li>
-                                                    ))}
-                                                </ul>
-                                            </CardBody>
-                                        </Card>
-                                    </Collapse>
-                                    : ''}
+                                        <Collapse isOpen={item.id === isOpen}>
+                                            <Card>
+                                                <CardBody>
+                                                    <ul>
+                                                        {item.submenu.map(submenu => (
+                                                            <li key={submenu.id}><Link className="active" to={submenu.link}>{submenu.title}</Link></li>
+                                                        ))}
+                                                    </ul>
+                                                </CardBody>
+                                            </Card>
+                                        </Collapse>
+                                        : ''}
                                 </li>
                             )
                         })}
