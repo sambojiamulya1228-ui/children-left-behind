@@ -35,7 +35,7 @@ const Header = () => {
 
                                             <li><Link to="/childtraffic" title="">Child trafficking</Link></li>
                                             <li><Link to="/tripofindia" title="">Trip to India</Link></li>
-                                            <li><Link to="/nurturingplaytime" title="">Before/ After school progr</Link></li>
+                                            <li><Link to="/nurturingplaytime" title="">Before/ After school program</Link></li>
                                             <li><Link to="/disasterrelief" title="">Disaster emergency relief</Link></li>
                                         </ul>
                                     </li>
