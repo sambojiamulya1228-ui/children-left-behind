@@ -98,29 +98,8 @@ const menus = [
     {
         id: 7,
         title: 'Resources',
-        link: '/',
-        submenu: [
-            {
-                id: 41,
-                title: 'Gallery',
-                link: '/'
-            },
-            {
-                id: 42,
-                title: 'Video',
-                link: '/'
-            },
-            {
-                id: 42,
-                title: 'Brochures',
-                link: '/'
-            },
-            {
-                id: 42,
-                title: 'Flyers',
-                link: '/'
-            }
-        ]
+        link: '/resources',
+
     },
     {
         id: 8,

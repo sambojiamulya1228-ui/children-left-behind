@@ -38,6 +38,7 @@ import TermsAndConditions from '../../images/TermsAndConditions';
 import Faq from '../../components/faq';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
+import Resources from '../../components/Resources';
 
 
 const AllRoute = () => {
@@ -58,6 +59,7 @@ const AllRoute = () => {
           <Route path='event-details' element={<EventPageSingle />} />
           <Route path='donate' element={<DonatePage />} />
           <Route path='volunteer' element={<VolunteerPage />} />
+          <Route path='resources' element={<Resources />} />
           <Route path='blog' element={<BlogPage />} />
           <Route path='faq' element={<Faq />} />
           <Route path='blog-left' element={<BlogPageLeft />} />

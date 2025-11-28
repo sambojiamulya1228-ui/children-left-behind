@@ -60,13 +60,7 @@ const Header = () => {
                                     {/* <li><Link to="/contact" title="">How to be involved?</Link></li> */}
                                 </ul>
                                 <ul className="col-lg-3">
-                                    <li><Link to="/case" className='drop-downn' title="">Resources</Link>
-                                        <ul>
-                                            <li><Link to="/case" title="">Gallery</Link></li>
-                                            <li><Link to="/case-single" title="">Video</Link></li>
-                                            <li><Link to="/case-single" title="">Brochures</Link></li>
-                                            <li><Link to="/case-single" title="">Flyers</Link></li>
-                                        </ul>
+                                    <li><Link to="/resources" className='' title="">Resources</Link>
                                     </li>
                                     <li><Link to="/faq" title="">F.A.Q</Link></li>
                                     {/* <li><Link to="/contact" title="">Subscribe</Link></li> */}
