@@ -14,6 +14,62 @@ function Disability() {
                 <img src={heroImg} alt="Hero" className="hero-bg" />
             </section>
 
+            <div
+                style={{
+                    width: "100%",
+                    overflowX: "auto",
+                    whiteSpace: "nowrap",
+                    paddingLeft:'30px'
+                }}
+            >
+                <div
+                    style={{
+                        display: "flex",
+                        gap: "30px",
+                        padding: "10px 15px",
+                        alignItems: "center"
+                    }}
+                >
+                    <span
+                        style={{ color: "#444", cursor: "pointer", whiteSpace: "nowrap"
+                            
+                        }}
+                    >
+                        Education
+                    </span>
+
+                    <span style={{ color: "#444", cursor: "pointer", whiteSpace: "nowrap" }}>
+                        Medical campaigns
+                    </span>
+
+                    <span style={{backgroundColor: "#F2E5FF",
+                            color: "#7A3CFF",
+                            padding: "6px ",
+                            borderRadius: "20px",
+                            cursor: "pointer",
+                            whiteSpace: "nowrap" }}>
+                        Supporting the disabled
+                    </span>
+
+                    <span style={{ color: "#444", cursor: "pointer", whiteSpace: "nowrap" }}>
+                        Mission to India
+                    </span>
+
+                    <span style={{ color: "#444", cursor: "pointer", whiteSpace: "nowrap" }}>
+                        Act for child protection
+                    </span>
+                    
+                    <span style={{ color: "#444", cursor: "pointer", whiteSpace: "nowrap" }}>
+                        Nurturing playtime
+                    </span>
+                    
+                    <span style={{ color: "#444", cursor: "pointer", whiteSpace: "nowrap" }}>
+                        Disaster relief
+                    </span>
+                </div>
+            </div>
+
+
             {/* 🌟 CONTENT SECTION */}
             <section className="content-section">
                 <div className="container">
@@ -91,10 +147,10 @@ function Disability() {
                         * The Child Guidance Center encompasses 14 boarding schools for children with disabilities, providing lodging and meals as well as medical care and education appropriate to the ability of each student. A 15th boarding school is currently under construction. See the Partnerships page for details.
                     </p>
                     <div>
-                        <img style={{width:'100%'}} src= {img}/>
+                        <img style={{ width: '100%' }} src={img} />
                     </div> <br></br>
 
-                  
+
 
                     {/* <h2 className="sub-title mt-5">Medical Mission Opportunities</h2>
                     <p className="description">

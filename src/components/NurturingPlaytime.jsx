@@ -14,6 +14,62 @@ function NurturingPlaytime() {
                 <img src={heroImg} alt="Hero" className="hero-bg" />
             </section>
 
+
+                <div
+                style={{
+                    width: "100%",
+                    overflowX: "auto",
+                    whiteSpace: "nowrap",
+                    paddingLeft:'30px'
+                }}
+            >
+                <div
+                    style={{
+                        display: "flex",
+                        gap: "30px",
+                        padding: "10px 15px",
+                        alignItems: "center"
+                    }}
+                >
+                    <span
+                        style={{
+                             color: "#444", cursor: "pointer", whiteSpace: "nowrap"
+                        }}
+                    >
+                        Education
+                    </span>
+
+                    <span style={{ color: "#444", cursor: "pointer", whiteSpace: "nowrap" }}>
+                        Medical campaigns
+                    </span>
+
+                    <span style={{ color: "#444", cursor: "pointer", whiteSpace: "nowrap" }}>
+                        Supporting the disabled
+                    </span>
+
+                    <span style={{ color: "#444", cursor: "pointer", whiteSpace: "nowrap" }}>
+                        Mission to India
+                    </span>
+
+                    <span style={{ color: "#444", cursor: "pointer", whiteSpace: "nowrap" }}>
+                        Act for child protection
+                    </span>
+                    
+                    <span style={{  backgroundColor: "#F2E5FF",
+                            color: "#7A3CFF",
+                            padding: "6px ",
+                            borderRadius: "20px",
+                            cursor: "pointer",
+                            whiteSpace: "nowrap" }}>
+                        Nurturing playtime
+                    </span>
+                    
+                    <span style={{ color: "#444", cursor: "pointer", whiteSpace: "nowrap" }}>
+                        Disaster relief
+                    </span>
+                </div>
+            </div>
+
             {/* 🌟 CONTENT SECTION */}
             <section className="content-section">
                 <div className="container">
