@@ -1,3 +1,81 @@
-.needs .btns .theme-btn:first-child{
-   background-color: #b46fb27a;
+/* WRAPPER */
+.needs-wrapper {
+  position: relative;
+  padding-top: 200px;
+  padding-bottom: 60px;
+  background: #fbf7ff;
 }
+
+
+
+
+
+
+
+
+
+/* MAIN CONTENT */
+.needs h2 {
+  font-size: 36px;
+  line-height: 1.3;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.needs .highlight {
+  color: #8a3deb;
+  font-weight: 800;
+}
+
+.needs p {
+  font-size: 16px;
+  margin: 20px 0;
+  color: #444;
+}
+
+/* BUTTONS */
+.needs-btns .btn {
+  padding: 10px 22px;
+  border-radius: 6px;
+  font-weight: 600;
+  border: 2px solid #8a3deb;
+  margin-right: 10px;
+}
+
+.btn-learn {
+  background: #b46fb238 !important;
+  color: #5a1b8f;
+}
+.container.needs{
+   background: linear-gradient(to bottom, #9c6bd709 0%, #872af81e 50%,#872af800 100%);
+}
+.btn-join {
+  background: #862af8 !important;
+  color: #fff;
+}
+
+/* IMAGES */
+.toy-img {
+  /* width: 420px; */
+  /* margin-top: 20px; */
+}
+
+.dino-icon {
+  width: 120px;
+  margin-top: 40px;
+  opacity: 0.8;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+ 
+
+  .toy-img {
+    /* width: 300px; */
+  }
+
+  .needs-wrapper {
+    padding-top: 200px;
+  }
+}
+
