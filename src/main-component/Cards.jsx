@@ -24,7 +24,7 @@ function Cards() {
         <>
             {/* 🌟 HERO SECTION */}
             <section className="hero-section" style={{ position: "relative" }}>
-                <Header />
+                {/* <Header /> */}
 
                 {/* Only ONE image will show based on screen size */}
                 <img
@@ -119,7 +119,7 @@ function Cards() {
             <BlogSection />
             <CtaSection ctaclass={'wpo-cta-area-2'} />
             <Needs />
-            <Footer />
+           
         </>
     );
 }

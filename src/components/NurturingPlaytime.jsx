@@ -124,7 +124,7 @@ function NurturingPlaytime() {
                   <BlogSection />
                     <CtaSection ctaclass={'wpo-cta-area-2'} />
                     <Needs />
-                    <Footer />
+                
             </section>
         </>
     );
