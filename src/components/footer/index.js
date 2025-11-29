@@ -27,9 +27,9 @@ const Footer = (props) => {
 
                                 <ul>
                                     <li><Link onClick={ClickHandler} to="/about">About us</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/case">Our Impacts</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/case">Resources</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/contact">Contact</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/">Our Impacts</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/resources">Resources</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/Contactus">Contact</Link></li>
                                     <li><Link onClick={ClickHandler} to="/faq">F.A.Q</Link></li>
                                 </ul>
                             </div>
@@ -40,10 +40,10 @@ const Footer = (props) => {
                                     <h3>Partners</h3>
                                 </div>
                                 <ul>
-                                    <li><Link onClick={ClickHandler} to="/about">Child Guidance Center</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/case">Community and Rural Development Society</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/case">AASHA JYOTHI Welfare Association for Disability</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/contact">Pavani Special School</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/childcenter">Child Guidance Center</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/">Community and Rural Development Society</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/asha">AASHA JYOTHI Welfare Association for Disability</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/pavani">Pavani Special School</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -54,13 +54,13 @@ const Footer = (props) => {
                                         <h3>Programs</h3>
                                     </div>
                                     <ul>
-                                        <li><Link onClick={ClickHandler} to="/about">Education</Link></li>
-                                        <li><Link onClick={ClickHandler} to="/case">Medical Campaigns</Link></li>
-                                        <li><Link onClick={ClickHandler} to="/case">Supporting the disabled</Link></li>
-                                        <li><Link onClick={ClickHandler} to="/contact">Mission to india</Link></li>
-                                        <li><Link onClick={ClickHandler} to="/event">Act of child Protection</Link></li>
-                                        <li><Link onClick={ClickHandler} to="/event">Disaster relief</Link></li>
-                                        <li><Link onClick={ClickHandler} to="/event">Nurturing playtime</Link></li>
+                                        <li><Link onClick={ClickHandler} to="/education">Education</Link></li>
+                                        <li><Link onClick={ClickHandler} to="/medical">Medical Campaigns</Link></li>
+                                        <li><Link onClick={ClickHandler} to="/disability">Supporting the disabled</Link></li>
+                                        <li><Link onClick={ClickHandler} to="/tripofindia">Mission to india</Link></li>
+                                        <li><Link onClick={ClickHandler} to="/childtraffic">Act of child Protection</Link></li>
+                                        <li><Link onClick={ClickHandler} to="/disasterrelief">Disaster relief</Link></li>
+                                        <li><Link onClick={ClickHandler} to="/nurturingplaytime">Nurturing playtime</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -71,12 +71,12 @@ const Footer = (props) => {
                                     <h3>Quick Links</h3>
                                 </div>
                                 <ul>
-                                    <li><Link onClick={ClickHandler} to="/about">Stay informed</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/case">How to be involved</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/case">Financial reports</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/contact">Media</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/event">Brochures</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/event">Financial Accountability</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/stayinformed">Stay informed</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/">How to be involved</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/">Financial reports</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/resources">Media</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/resources">Brochures</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/resources">Financial Accountability</Link></li>
                                 </ul>
                             </div>
                         </div>
