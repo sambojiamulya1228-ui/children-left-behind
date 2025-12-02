@@ -1,6 +1,7 @@
 import React from "react";
 import heroImg from "../images/icons/supporting-disability.png";
 import Header from "../components/header";
+import { useNavigate } from "react-router-dom";
 // import "../css";
 import "../App"
 import img from "../images/icons/Frame 232.png"
@@ -10,6 +11,7 @@ import CtaSection from "../components/cta";
 import Needs from "../components/needs";
 import img1 from "../images/icons/Programs.svg"
 function Medicalcampaigns() {
+      const navigate = useNavigate();
     return (
         <>
             {/* 🌟 HERO SECTION */}
@@ -61,61 +63,58 @@ function Medicalcampaigns() {
       gap: 20px;
     }
   `}</style>
+                      <hr></hr>
+                  <div className="scroll-box">
 
-                <div className="scroll-box">
-                    <hr></hr>
 
-                    <span style={{
-                        background: "#F2E5FF",
-                        color: "#7A3CFF",
-                        padding: "6px 12px",
-                        borderRadius: "5px",
-                        cursor: "pointer"
-                    }}>Education</span>
-                    <span style={{ color: "#ccc", fontSize: "20px" }}>|</span>
+                    <span onClick={() => navigate("/education")} style={{ color: "#444", cursor: "pointer", gap: '12px' }} >Education</span>
+                    <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
 
-                    <span style={{
+                    <span onClick={() => navigate("/midical")}  style={{
                         background: "#F2E5FF",
                         color: "#7A3CFF",
                         padding: "6px 12px",
                         borderRadius: "5px",
                         cursor: "pointer"
                     }}>Medical campaigns</span>
-                    <span style={{ color: "#ccc", fontSize: "20px" }}>|</span>
+                    <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
 
-                    <span style={{ color: "#444", cursor: "pointer"}} >Supporting the disabled</span>
-                    <span style={{ color: "#ccc", fontSize: "20px" }}>|</span>
+                    <span onClick={() => navigate("/disability")} style={{ color: "#444", cursor: "pointer", gap: '12px' }}>
+                        Supporting the disabled
+                    </span>
+                    <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
 
-                    <span style={{ color: "#444", cursor: "pointer" }}>Mission to India</span>
-                    <span style={{ color: "#ccc", fontSize: "20px" }}>|</span>
+                    <span onClick={() => navigate("/tripofindia")} style={{ color: "#444", cursor: "pointer", gap: '12px' }}>Mission to India</span>
+                    <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
 
-                    <span style={{ color: "#444", cursor: "pointer" }}>Act for child protection</span>
-                    <span style={{ color: "#ccc", fontSize: "20px" }}>|</span>
+                    <span onClick={() => navigate("/childtraffic")} style={{ color: "#444", cursor: "pointer", gap: '12px' }}>Act for child protection</span>
+                    <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
 
-                    <span style={{ color: "#444", cursor: "pointer" }}>Nurturing playtime</span>
-                    <span style={{ color: "#ccc", fontSize: "20px" }}>|</span>
+                    <span onClick={() => navigate("/nurturingplaytime")} style={{ color: "#444", cursor: "pointer", gap: '12px' }}>Nurturing playtime</span>
+                    <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
 
-                    <span style={{ color: "#444", cursor: "pointer" }}>Disaster relief</span>
+                    <span onClick={() => navigate("/disasterrelief")} style={{ color: "#444", cursor: "pointer", gap: '12px' }}>Disaster relief</span>
 
                     {/* DUPLICATE FOR INFINITE LOOP */}
-                    <span style={{color: "#444", cursor: "pointer" }} >Education</span>
-                    <span style={{ color: "#ccc", fontSize: "20px" }}>|</span>
+                    <span onClick={() => navigate("/education")} style={{ color: "#444", cursor: "pointer", gap: '12px' }}>Education</span>
+                    <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
 
-                    <span style={{
+                    <span onClick={() => navigate("/medical")} style={{
                         background: "#F2E5FF",
                         color: "#7A3CFF",
                         padding: "6px 12px",
                         borderRadius: "5px",
                         cursor: "pointer"
                     }}>Medical campaigns</span>
-                    <span style={{ color: "#ccc", fontSize: "20px" }}>|</span>
+                    <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
 
-                    <span style={{  color: "#444", cursor: "pointer"}} > Supporting the disabled</span>
-                    <span style={{ color: "#ccc", fontSize: "20px" }}>|</span>
+                    <span  onClick={() => navigate("/disability")} style={{ color: "#444", cursor: "pointer", gap: '12px' }} >Supporting the disabled </span>
+                    <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
 
-                    <span style={{ color: "#444", cursor: "pointer" }}>Mission to India</span>
+                    <span onClick={() => navigate("/tripofindia")} style={{ color: "#444", cursor: "pointer", gap: '12px' }}>Mission to India</span>
 
                 </div>
+                 <hr></hr>
 
             </section>
 

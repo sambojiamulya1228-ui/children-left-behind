@@ -9,144 +9,20 @@ import BlogSection from "../components/BlogSection"
 import CtaSection from "../components/cta";
 import Needs from "../components/needs";
 import img1 from "../images/icons/Programs.svg"
+import { useNavigate } from "react-router-dom";
 function DisasterRelief() {
+      const navigate = useNavigate();
     return (
         <>
             {/* 🌟 HERO SECTION */}
 
 
-            <div className="program-hero">
+              <div className="program-hero">
 
-                {/*               
+                {/* RIGHT IMAGE on Desktop — FIRST on Mobile */}
                 <div className="program-image-box">
                     <img src={img1} alt="hero" className="program-image" />
-                </div> */}
-
-                <div
-                    style={{
-                        width: "1216px",
-                        height: "445px",
-                        backgroundColor: "#F8F0FF",
-                        border: "5px solid #000",
-                        borderRadius: "20px",
-                        position: "relative",
-                        overflow: "hidden",
-                        margin: "0 auto",
-                        display: "flex",
-                        justifyContent: "center",
-                        alignItems: "center",
-                    }}
-                >
-                    {/* LEFT SVG ICON */}
-                    <img
-                        src="left-icon.svg"
-                        alt="left-icon"
-                        style={{
-                            position: "absolute",
-                            left: "20px",
-                            top: "50%",
-                            transform: "translateY(-50%)",
-                            width: "80px",
-                            opacity: 0.4,
-                        }}
-                    />
-
-                    {/* RIGHT SVG ICON */}
-                    <img
-                        src="right-icon.svg"
-                        alt="right-icon"
-                        style={{
-                            position: "absolute",
-                            right: "20px",
-                            top: "50%",
-                            transform: "translateY(-50%)",
-                            width: "80px",
-                            opacity: 0.4,
-                        }}
-                    />
-
-                    {/* MAIN CONTENT WRAPPER */}
-                    <div
-                        style={{
-                            display: "flex",
-                            alignItems: "center",
-                            gap: "40px",
-                            padding: "20px",
-                            flexWrap: "wrap",
-                            justifyContent: "center",
-                        }}
-                    >
-                        {/* SVG IMAGE CENTER */}
-                        <img
-                            src="center-image.svg"
-                            alt="hero"
-                            style={{
-                                width: "250px",
-                                height: "auto",
-                            }}
-                        />
-
-                        {/* TEXT + BUTTON */}
-                        <div style={{ maxWidth: "420px", textAlign: "left" }}>
-                            <h1 style={{ fontSize: "32px", fontWeight: "700", marginBottom: "10px" }}>
-                                Hero Section Title
-                            </h1>
-                            <p style={{ fontSize: "16px", lineHeight: "24px", marginBottom: "20px" }}>
-                                This is your hero section description. Add any short text here to explain your purpose.
-                            </p>
-
-                            <button
-                                style={{
-                                    backgroundColor: "#7B2CBF",
-                                    border: "none",
-                                    padding: "12px 24px",
-                                    borderRadius: "8px",
-                                    color: "white",
-                                    fontSize: "16px",
-                                    cursor: "pointer",
-                                }}
-                            >
-                                Learn More
-                            </button>
-                        </div>
-                    </div>
-
-                    {/* MOBILE RESPONSIVE INLINE STYLES */}
-                    <style>
-                        {`
-          @media (max-width: 768px) {
-            div[style*="1216px"] {
-              width: 100% !important;
-              height: auto !important;
-              padding: 20px 10px !important;
-            }
-            img[alt="left-icon"] {
-              left: 10px !important;
-              top: 10px !important;
-              transform: none !important;
-              width: 50px !important;
-            }
-            img[alt="right-icon"] {
-              right: 10px !important;
-              top: 10px !important;
-              transform: none !important;
-              width: 50px !important;
-            }
-            div[style*="flex"] {
-              flex-direction: column !important;
-              gap: 20px !important;
-            }
-            img[alt="hero"] {
-              width: 180px !important;
-            }
-            div[style*="text-align: left"] {
-              text-align: center !important;
-            }
-          }
-        `}
-                    </style>
                 </div>
-
 
                 {/* LEFT CONTENT on Desktop — BELOW on Mobile */}
                 <div className="program-content">
@@ -166,6 +42,8 @@ function DisasterRelief() {
                 </div>
 
             </div>
+
+
 
 
             <div style={{ padding: '50px' }}>
@@ -190,50 +68,56 @@ function DisasterRelief() {
     }
   `}</style>
 
+                
+                 <hr></hr>
+
                 <div className="scroll-box">
-                    <hr></hr>
 
-                    <span style={{ color: "#444", cursor: "pointer" }} >Education</span>
-                    <span style={{ color: "#444", cursor: "pointer" }} >Medical campaigns</span>
-                    <span style={{ color: "#ccc", fontSize: "20px" }}>|</span>
 
-                    <span style={{ color: "#444", cursor: "pointer" }} >Supporting the disabled</span>
-                    <span style={{ color: "#ccc", fontSize: "20px" }}>|</span>
+                    <span onClick={() => navigate("/education")} style={{ color: "#444", cursor: "pointer", gap: '12px' }}>Education</span>
+                    <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
 
-                    <span style={{ color: "#ccc", fontSize: "20px" }}>|</span>
+                    <span onClick={() => navigate("/midical")} style={{ color: "#444", cursor: "pointer", gap: '12px' }}>Medical campaigns</span>
+                    <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
 
-                    <span style={{ color: "#444", cursor: "pointer" }} >Mission to India</span>
-                    <span style={{ color: "#ccc", fontSize: "20px" }}>|</span>
+                    <span >
+                        Supporting the disabled
+                    </span>
+                    <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
 
-                    <span style={{ color: "#444", cursor: "pointer" }}>Act for child protection</span>
-                    <span style={{ color: "#ccc", fontSize: "20px" }}>|</span>
+                    <span style={{ color: "#444", cursor: "pointer", gap: '12px' }}>Mission to India</span>
+                    <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
 
-                    <span style={{ color: "#444", cursor: "pointer" }}>Nurturing playtime</span>
-                    <span style={{ color: "#ccc", fontSize: "20px" }}>|</span>
+                    <span onClick={() => navigate("/childtraffic")} style={{ color: "#444", cursor: "pointer", gap: '12px' }}>Act for child protection</span>
+                    <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
 
-                    <span style={{
+                    <span onClick={() => navigate("/nurturingplaytime")}  style={{ color: "#444", cursor: "pointer", gap: '12px' }}>Nurturing playtime</span>
+                    <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
+
+                    <span onClick={() => navigate("/disasterrelief")} style={{
                         background: "#F2E5FF",
                         color: "#7A3CFF",
                         padding: "6px 12px",
                         borderRadius: "5px",
                         cursor: "pointer"
                     }}>Disaster relief</span>
-                    <span style={{ color: "#ccc", fontSize: "20px" }}>|</span>
+
                     {/* DUPLICATE FOR INFINITE LOOP */}
-                    <span style={{ color: "#444", cursor: "pointer" }} >Education</span>
-                    <span style={{ color: "#ccc", fontSize: "20px" }}>|</span>
+                    <span onClick={() => navigate("/education")} style={{ color: "#444", cursor: "pointer", gap: '12px' }}>Education</span>
+                    <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
 
-                    <span >Medical campaigns</span>
-                    <span style={{ color: "#ccc", fontSize: "20px" }}>|</span>
+                    <span onClick={() => navigate("/medical")} style={{ color: "#444", cursor: "pointer", gap: '12px' }}>Medical campaigns</span>
+                    <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
 
-                    <span style={{ color: "#444", cursor: "pointer" }} > Supporting the disabled</span>
-                    <span style={{ color: "#ccc", fontSize: "20px" }}>|</span>
+                    <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}>
+                        Supporting the disabled
+                    </span>
+                    <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
 
-                    <span style={{ color: "#ccc", fontSize: "20px" }}>|</span>
-
-                    <span style={{ color: "#444", cursor: "pointer" }}  >Mission to India</span>
+                    <span onClick={() => navigate("/tripofindia")} style={{ color: "#444", cursor: "pointer", gap: '12px' }}>Mission to India</span>
 
                 </div>
+                <hr></hr>
 
             </section>
 

@@ -23,66 +23,19 @@ function ChildCenter() {
     }, []);
     return (
         <>
-            {/* 🌟 HERO SECTION */}
-            {/* <section className="hero-section">
-                <Header />
+        
+            <section className="hero-section">
+            
                 <div className="hero-overlay"></div>
                 <img src={heroImg} alt="Hero" className="hero-bg" />
-            </section> */}
+            </section>
 
 
-            
 
-            <div style={{ paddingLeft: '120px' }} className="container mt-4 ps-0">
-    {/* FIRST ROW — EST */}
-    <div className="row mb-4">
-        <div className="col-12 col-lg-3">
-            <h6 style={{ fontSize: "12px", fontWeight: "600", opacity: 0.6 }}>Est.</h6>
-            <p style={{ fontSize: "14px", marginTop: "6px" }}>1973</p>
-        </div>
-    </div>
 
-    {/* SECOND ROW — LOCATION / CONTACT / WEBSITE */}
-    <div className="row">
-        {/* Location */}
-        <div className="col-12 col-md-4 mb-4">
-            <h6 style={{ fontSize: "12px", fontWeight: "600", opacity: 0.6 }}>Location</h6>
-            <p style={{ fontSize: "14px", marginTop: "6px", lineHeight: "20px" }}>
-                H.NO. 7-6/2, Santosh Sadan,<br />
-                Ganesh Nagar Colony, Near Uppal<br />
-                Depot, Peerzadiguda, Medipally<br />
-                Mandal, Medchal District,<br />
-                Hyderabad – 500098.<br />
-                Telangana - INDIA
-            </p>
-        </div>
 
-        {/* Contact */}
-        <div className="col-12 col-md-4 mb-4">
-            <h6 style={{ fontSize: "12px", fontWeight: "600", opacity: 0.6 }}>Contact</h6>
-            <p style={{ fontSize: "14px", marginTop: "6px", lineHeight: "20px" }}>
-                +91 8367675467<br />
-                info@cgcindia.org
-            </p>
-        </div>
 
-        {/* Website */}
-        <div className="col-12 col-md-4 mb-4">
-            <h6 style={{ fontSize: "12px", fontWeight: "600", opacity: 0.6 }}>Website</h6>
-            <a
-                href="https://cgcindia.org/"
-                style={{ fontSize: "14px", marginTop: "6px", display: "inline-block" }}
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                https://cgcindia.org/
-            </a>
-        </div>
-    </div>
-</div>
-   
 
-   
 
 
 
