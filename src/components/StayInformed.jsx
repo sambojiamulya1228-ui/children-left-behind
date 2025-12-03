@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import heroImg from "../images/icons/stat-informed.png";
+import heroImg from "../images/icons/Informed.png";
 import Header from "../components/header";
 import "../App";
 import Footer from "../components/footer";
@@ -67,15 +67,27 @@ function StayInformed() {
         color: "#333",
         fontSize: "22px",
     };
+    const bg={
+        background: "linear-gradient(180deg, #FFFFFF 0%, #FAF0FF 100%)",
+    }
 
     return (
         <>
 
             {/* HERO SECTION */}
-            <section className="hero-section">
-                <div className="hero-overlay"></div>
-                <img src={heroImg} alt="Hero" className="hero-bg" />
-            </section>
+           <section className="wpo-about-area stay">
+                       <div className="container" style={bg}>
+                           <div className="row align-items-center">
+                               <div className="col-md-6">
+                                   <h2 className="wpo-section-title about">Hard truths of children in India </h2>
+                                   <p>In India, countless children endure the harsh realities. By learning about their lives and challenges, we can foster awareness and take meaningful steps to support these children, helping to alleviate their struggles and pave the way for a better tomorrow.</p>
+                               </div>
+                               <div className="col-md-6">
+                                   <img src={heroImg} alt=""/>
+                               </div>
+                           </div>
+                       </div>
+                   </section>
 
             {/* CONTENT */}
             <div style={containerStyle}>
