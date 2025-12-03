@@ -1,10 +1,9 @@
 import React from "react";
-import heroImg from "../images/icons/gc.png";
+import PavaniLogo from "../images/icons/asha-logo.png";
 import Header from "../components/header";
-import heroDesktop from "../images/icons/asha.png";
-import heroMobile from "../images/icons/asha-m.png";
+import LeftBG from "../images/icons/pavani-left.png";
+import RightBG from "../images/icons/pavani-right.png";
 import { useState, useEffect } from "react";
-import Footer from "../components/footer";
 import BlogSection from "../components/BlogSection"
 import CtaSection from "../components/cta";
 import Needs from "../components/needs";
@@ -24,20 +23,21 @@ function Ashajyothi() {
 
     return (
         <>
-            {/* 🌟 HERO SECTION */}
-            <section className="hero-section" style={{ position: "relative" }}>
+            <div className="pavani-wrapper container">
+      {/* Background Illustrations */}
+      <img src={LeftBG} alt="" className="pavani-left" />
+      <img src={RightBG} alt="" className="pavani-right" />
 
-                {/* Only ONE image will show based on screen size */}
-                <img
-                    src={isMobile ? heroMobile : heroDesktop}
-                    alt="Hero"
-                    style={{
-                        width: "100%",
-                        height: "auto",
-                        display: "block",
-                    }}
-                />
-            </section>
+      <div className="pavani-content">
+        <img src={PavaniLogo} alt="Pavani School" className="pavani-logo" />
+
+        <h1 className="pavani-title">AASHA JYOTHI Welfare Association for Disability</h1>
+
+        <p className="pavani-description">
+          with a motive of providing educational and vocational opportunities for the disabled to make them self-dependent and productive members of the society. The main thrusts of the society are Schools for Disabled Children, Formal and Non Formal Education, forming of Parents Associations for the Disabled, Emergency Relief Programs, Child Labour schools, Micro Credit program, Community Based Rehabilitation Programs
+        </p>
+      </div>
+    </div>
 
             {/* 🌟 CONTENT SECTION */}
             <section className="content-section">
