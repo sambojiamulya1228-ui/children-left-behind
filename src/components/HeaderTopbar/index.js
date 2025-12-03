@@ -18,7 +18,7 @@ const HeaderTopbar = () => {
                     <div className="col col-md-6 col-sm-5 col-5">
                         <div className="contact-info">
                             <ul className="contact-list d-flex align-items-center justify-content-end">
-                                <li className='d-none d-lg-block' style={{background:' #F8F0FF',color:'#832AD1',padding:'12px 20px',border:"1px solid #832AD1",borderRadius:"8px"}}> <Link to="/Contactus">Contact</Link></li>
+                                <li className='d-none d-lg-block' style={{background:' #F8F0FF',color:'#832AD1',padding:'12px 20px',border:"1px solid #832AD1",borderRadius:"8px"}}> <Link to="/Contactus" style={{color:"#832AD1"}}>Contact</Link></li>
                                 <li style={{background:' #91278f;'}}><Link className="theme-btn m-0" to="/donate">Join Hands</Link></li>
                             
                             </ul>
