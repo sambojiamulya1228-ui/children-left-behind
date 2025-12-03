@@ -36,10 +36,10 @@ function ChildTrafficking() {
             unable to access the resources they need to flourish.
           </p>
         </div>
-      </div>
+      </div><br/><br/><br/>
 
-      <div style={{ padding: "50px" }}>
-        <p>
+      <div>
+        <p style={{paddingLeft:'50px'}}>
           We are committed to educating the families of children with disabilities
           and teaching families how to deal with and care for the child along with
           providing equipment or other essentials to meet the child’s needs. Many

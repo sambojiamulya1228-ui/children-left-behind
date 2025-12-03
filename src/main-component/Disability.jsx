@@ -46,14 +46,14 @@ function Disability() {
 
                 </div>
 
-            </div>
+            </div><br /><br /><br />
 
-            <div style={{ padding: '50px' }}>
-                <p>
+            <div>
+                <p style={{paddingLeft:'50px'}}>
                     We are committed to educating the families of children with disabilities and teaching families how to deal with and care for the child along with providing equipment or other essentials to meet the child’s needs. Many children have wide-ranging but treatable and often preventable medical problems. Almost none have a formal education, or any prospect of vocational opportunities.
                 </p>
             </div>
-            <section style={{ width: "100%", overflow: "hidden", padding: "0px 0", background: "#fff" }}>
+            <section style={{ width: "100%", overflow: "hidden", padding: "0px 5px 0px 5px", background: "#fff" }}>
 
                 {/* animation and keyframes injected inside component */}
                 <style>{`
@@ -71,8 +71,7 @@ function Disability() {
   `}</style>
                 <hr></hr>
 
-                <div className="scroll-box">
-
+                <div style={{ marginTop: '10px' }} className="scroll-box">
 
                     <span onClick={() => navigate("/education")} style={{ color: "#444", cursor: "pointer", gap: '12px' }}>Education</span>
                     <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>

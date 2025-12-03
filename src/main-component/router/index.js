@@ -39,6 +39,8 @@ import Faq from '../../components/faq';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
 import Resources from '../../components/Resources';
+import USPrivacyPolicy from '../../components/USPrivacyPolicy';
+import FinanciaiAccountability from '../FinancialAccountability';
 
 
 const AllRoute = () => {
@@ -86,6 +88,10 @@ const AllRoute = () => {
           <Route path='/nurturingplaytime' element={<NurturingPlaytime />}></Route>
           <Route path='/contactus' element={<ContactUs />}></Route>
           <Route path='/termsandconditions' element={<TermsAndConditions />}></Route>
+          {/* <Route path='/usprivacypolicy' element={<Us />}></Route> */}
+           <Route path='/usprivacypolicy' element={<USPrivacyPolicy />}></Route>
+           <Route path='/financiaiaccountability' element={<FinanciaiAccountability/>}></Route>
+
         </Routes>
         <Footer />
       </BrowserRouter>

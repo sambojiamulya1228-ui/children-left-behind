@@ -39,9 +39,10 @@
 
 .resources-page .section-title {
     width: 25%;
-    font-size: 28px;
-    font-family: "Georgia", serif;
+    font-size: 36px;
+    font-family: "Awesome Serif";
     font-weight: 600;
+    line-height: 42px;
 }
 
 .section-content {
@@ -57,6 +58,9 @@
     font-size: 14px;
     font-weight: bold;
     margin-bottom: 6px;
+    font-weight: 600;
+    color: #1C191E;
+    font-family: "work sans";
 }
 
 .year-block p {

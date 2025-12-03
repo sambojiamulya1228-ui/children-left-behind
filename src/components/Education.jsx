@@ -39,15 +39,11 @@ function Disability() {
 
                 </div>
 
-            </div>
+            </div><br/><br/>
              
              
-            <div style={{ padding: '50px' }}>
-                <p>
-                    We are committed to educating the families of children with disabilities and teaching families how to deal with and care for the child along with providing equipment or other essentials to meet the child’s needs. Many children have wide-ranging but treatable and often preventable medical problems. Almost none have a formal education, or any prospect of vocational opportunities.
-                </p>
-            </div>
-            <section style={{ width: "100%", overflow: "hidden", padding: "0px 0", background: "#fff" }}>
+            <p style={{paddingLeft:'50px'}} className="program-desc">We are committed to educating the families of children with disabilities and teaching families how to deal with and care for the child along with providing equipment or other essentials to meet the child’s needs. Many children have wide-ranging but treatable and often preventable medical problems. Almost none have a formal education, or any prospect of vocational opportunities</p>
+            <section style={{ width: "100%", overflow: "hidden", background: "#fff" }}>
 
                 {/* animation and keyframes injected inside component */}
                 <style>{`

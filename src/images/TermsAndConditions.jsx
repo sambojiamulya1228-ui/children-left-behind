@@ -22,9 +22,10 @@ function TermsAndConditions() {
         display: "flex",
         flexDirection: isMobile ? "column" : "row",
         gap: "120px",
-        padding: "20px",
+        padding: "50px",
         maxWidth: "1200px",
-        margin: "auto",
+        margin: "40px",
+        
     };
 
     const sidebarStyle = {
@@ -61,13 +62,13 @@ function TermsAndConditions() {
     return (
         <>
             {/* HERO SECTION */}
-            <section className="hero-section">
+            {/* <section className="hero-section">
                 <div className="hero-overlay"></div>
                 <img src={heroImg} alt="Hero" className="hero-bg" />
-            </section>
+            </section> */}
 
             {/* CONTENT */}
-            <div style={containerStyle}>
+            <div  style={containerStyle}>
 
                 {/* LEFT SIDEBAR */}
                 <aside style={sidebarStyle}>
@@ -91,32 +92,32 @@ function TermsAndConditions() {
                 </aside>
 
                 {/* RIGHT CONTENT */}
-                <main style={contentStyle}>
+                <main  style={contentStyle}>
 
                     <h2 style={{ textAlign: "center", color: "#1c191E" }}>
                         Terms & Conditions
-                    </h2>
+                    </h2><br/>
 
                     <p className="description">
                         This website is owned and operated by Children Left Behind (“Children Left Behind”, “we,” “us” or “our”). Children Left Behind provides this website, including all information, software and services available from this website, to you, the user, conditioned upon your acceptance of all the terms, conditions, policies and notices described herein. Your use of the website constitutes your agreement to all such terms, conditions, policies and notices.
                     </p>
 
-                    <h2 style={{ color: "#1c191E" }}>Your Use of the Website</h2>
+                    <h2 style={{ color: "#1c191E" }}>Your Use of the Website</h2><br/><br/>
                     <p className="description">
                         This website is for your personal and noncommercial use. As a condition to your use of the website, you warrant to Children Left Behind that you will not use the website for any purpose that is unlawful or prohibited by these General Terms and Conditions.
                     </p>
 
-                    <h2 style={{ color: "#1c191E" }}>Privacy Policy</h2>
+                    <h2 style={{ color: "#1c191E" }}>Privacy Policy</h2><br/>
                     <p className="description">
                         You explicitly consent to the collection, hosting, use, disclosure and other processing or handling of information as described in the Children Left Behind Privacy Notice as such notice may be amended by Children Left Behind in its sole discretion from time to time.
                     </p>
 
-                    <h2 style={{ color: "#1c191E" }}>Accuracy & Information Timeliness</h2>
+                    <h2 style={{ color: "#1c191E" }}>Accuracy & Information Timeliness</h2><br/><br/>
                     <p className="description">
                         We strive to provide accurate information on our website. We are not responsible, however, if information we make available on this website is not accurate, complete or current. The materials on this website are provided for general information only and should not be relied upon or used as the basis for making any decisions without consulting primary or more accurate, more complete or more timely sources of information. Any reliance on the materials on this website will be at your own risk. This website may contain certain historical information. Historical information is not current and is provided for your reference only. We reserve the right to modify the contents of this website at any time, but we have no obligation to update any information on the website. You agree that it is your responsibility to monitor changes to the website.
                     </p>
 
-                    <h2 style={{ color: "#1c191E" }}>Use of Materials</h2>
+                    <h2 style={{ color: "#1c191E" }}>Use of Materials</h2><br/><br/>
                     <p className="description">
                         Except where explicitly stated otherwise, this website and all of its content (including but not limited to software, files, graphics and data) are the property of and owned by Children Left Behind and/or its affiliates, suppliers or licensors and are protected by copyright, trademark and other laws of the United States and other countries. You may display and electronically copy, download and print hard-copy versions of the materials contained on the website for your personal and noncommercial use, provided that you do not modify or delete any copyright, trademark or other proprietary notice that appears on the materials you copy, download or print. When you display, copy, download or print any materials on or from the website, they are provided to you by Children Left Behind and/or its affiliates, suppliers or licensors under a license that is revocable at will by Children Left Behind. Children Left Behind and/or its affiliates, suppliers or licensors retain full and complete title to the materials and to any and all of the associated intellectual property rights. Any other use of the materials on the website, including but not limited to the modification, distribution, transmission, performance, broadcast, reproduction, publication , licensing, reverse engineering, transfer or sale of, or the creation of derivative works from, any materials, information, software, products or services obtained from the website, without the prior written permission of Children Left Behind, is expressly prohibited. Requests for permission to undertake any of these activities should be mailed to
                     </p>
@@ -129,47 +130,47 @@ function TermsAndConditions() {
 
                     </p>
 
-                    <h2 style={{ color: "#1c191E" }}>Limitation of Liability</h2>
+                    <h2 style={{ color: "#1c191E" }}>Limitation of Liability</h2><br/><br/>
                     <p className="description">
                         To the fullest extent permitted under applicable law, you understand and agree that no member of the Children Left Behind (as defined below) shall be liable for any direct, indirect, incidental, special, exemplary, consequential, punitive or any other damages relating to or resulting from (i) your use or inability to use this website or any other website you access through a link from this site, (ii) from any actions we take or fail to take as a result of electronic mail messages you send us; (iii) the publishing of any information, comments or other information on or to the website by you or any person using your computer; or (iv) the use by any third party of your user name or password. These include damages for errors, omissions, interruptions, defects, delays, computer viruses, your loss of profits, loss of data, unauthorized access to or alteration of your transmissions or data, and other tangible and intangible losses. this limitation applies regardless of whether the damages are claimed under the terms of a contract, as of negligence, or otherwise arise out of or in connection with the use, inability to use or performance of the information, services, products or materials available from this website, and even if we or our representatives have been negligent or have been advised of the possibility of such damages. Because some jurisdictions do not allow limitations on how long an implied warranty lasts, or the exclusion or limitation of liability for consequential or incidental damages, the above limitation may not apply to you
-                    </p>
+                    </p><br/><br/>
 
-                    <h2 style={{ color: "#1c191E" }}>Featured Links</h2>
+                    <h2 style={{ color: "#1c191E" }}>Featured Links</h2><br/>
                     <p className="description">
                         This website may contain hyperlinks to other Internet websites. These hyperlinks are provided for your information and convenience only. Children Left Behind does not control these other websites and is not responsible for their content; nor does Children Left Behind’s inclusion of hyperlinks to such websites imply any endorsement or approval of the material on such websites or any association with their operators. Check the URL address provided in your browser to determine whether you are still in this Children Left Behind website or have moved to another site.
-                    </p>
+                    </p><br/><br/>
 
-                    <h2 style={{ color: "#1c191E" }}>Copyright</h2>
+                    <h2 style={{ color: "#1c191E" }}>Copyright</h2><br/>
                     <p className="description">
                         Except for material in the public domain under United States copyright law, all material contained on the website (including all software, HTML code, Java applets, Active X controls and other code) is protected by applicable United States and foreign copyright laws. Except as otherwise expressly provided in these General Terms and Conditions, you may not copy, distribute, transmit, display, perform, reproduce, publish, license, modify, rewrite, create derivative works from, transfer or sell any material contained on the website without the prior consent of the copyright owner. Violation of this provision may result in severe civil and criminal penalties
-                    </p>
+                    </p><br/><br/>
 
-                    <h2 style={{ color: "#1c191E" }}>Trademarks</h2>
+                    <h2 style={{ color: "#1c191E" }}>Trademarks</h2><br/>
                     <p className="description">
                         Children Left Behind ® OR Children Left Behind ™ and other marks used on this website are trademarks or registered trademarks of Children Left Behind and its affiliates and are protected by state and federal trademark laws. Other trademarks appear on the website with permission from their respective owners. Your unauthorized use of trademarks appearing on the website may constitute trademark infringement, which could subject you to substantial civil penalties.
-                    </p>
+                    </p><br/><br/>
 
 
-                    <h2 style={{ color: "#1c191E" }}>Changes to These General Terms and Conditions</h2>
+                    <h2 style={{ color: "#1c191E" }}>Changes to These General Terms and Conditions</h2><br/>
                     <p className="description">
                         Children Left Behind reserves the right to make changes to these General Terms and Conditions at any time by posting revised General Terms and Conditions on the website. It is your responsibility to check periodically for any changes we may make to these General Terms and Conditions. The most current version of the General Terms and Conditions can be reviewed by clicking on the “Terms of Use” hypertext link located at the bottom of our Web pages. By continuing to use the website, you are agreeing to all changes made by Children Left Behind.
-                    </p>
+                    </p><br/><br/>
 
 
-                    <h2 style={{ color: "#1c191E" }}>Trademarks</h2>
+                    <h2 style={{ color: "#1c191E" }}>Trademarks</h2><br/>
                     <p className="description">
                         Children Left Behind ® OR Children Left Behind ™ and other marks used on this website are trademarks or registered trademarks of Children Left Behind and its affiliates and are protected by state and federal trademark laws. Other trademarks appear on the website with permission from their respective owners. Your unauthorized use of trademarks appearing on the website may constitute trademark infringement, which could subject you to substantial civil penalties.
-                    </p>
+                    </p><br/><br/>
 
 
-                    <h2 style={{ color: "#1c191E" }}>How to Contact Us</h2>
+                    <h2 style={{ color: "#1c191E" }}>How to Contact Us</h2><br/>
                     <p className="description">
                         If you have any questions or comments about these General Terms and Conditions or this website, please Contact Us or write us at:<br></br><br></br>
 
                         Children Left Behind<br></br>
                         1045 Radford Street<br></br>
                         Christiansburg, VA 24073-2829
-                    </p>
+                    </p><br/><br/>
 
 
                     <h2 style={{ color: "#1c191E" }}>Transactions</h2><br></br>
@@ -191,7 +192,7 @@ function TermsAndConditions() {
 
                         As a Children’s Charitable Organization, Children Left Behind has a strict Non-Refund policy on all donations made on its website or by mail. The donor understands that charitable donations are not refundable.
                         The donation will be used for the developmental work being initiated by the organization.
-                    </p>
+                    </p><br/><br/>
 
 
                     <h2 style={{ color: "#1c191E" }}>Governing Law</h2><br></br>
