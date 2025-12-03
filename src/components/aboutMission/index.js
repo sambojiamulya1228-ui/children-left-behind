@@ -5,7 +5,7 @@ import './style.css'
 
 const Mission = (props) => {
     return (
-        <div className='wpo-mission-area about-section-2 pt-4'>
+        <div className='wpo-mission-area about-section-2 pt-5 mt-5'>
             <div className="container">
 
                 <div className="row">
