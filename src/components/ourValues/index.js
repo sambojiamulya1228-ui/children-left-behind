@@ -9,9 +9,9 @@ const ValuesSection = () => {
 
       <div className="values-text">
         <p>
-          At Children Left Behind, our mission is to create, implement, and 
-          advocate for child-friendly policies that promote the holistic 
-          development and empowerment of children across the globe.
+          At Children Left Behind, our mission is to create,<br/> implement, and 
+          advocate for child-friendly policies<br/> that promote the holistic 
+          development and <br/>empowerment of children across the globe.
         </p>
 
         <p>

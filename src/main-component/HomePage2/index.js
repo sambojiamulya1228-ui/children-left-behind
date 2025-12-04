@@ -27,7 +27,7 @@ const HomePage2 =() => {
             <WorldSection/>
             <EventSection/>
             <CtaSection/>
-            <BlogSection/>
+            {/* <BlogSection/> */}
             <Footer/>
             <Scrollbar/>
         </Fragment>

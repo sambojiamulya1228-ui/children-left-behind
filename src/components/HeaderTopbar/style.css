@@ -4,7 +4,7 @@
 }
 
 .header-style-3 .topbar {
-    border-bottom: 1px solid #dfe2e6;
+    /* border-bottom: 1px solid #dfe2e6; */
     background: #fff;
 }
 
@@ -168,7 +168,7 @@
     margin-top: 9px;
     font-size: 14px;
     font-weight: 600;
-    background: #91278f;;
+    background: #832AD1;;
     color: #fff !important;
 }
 

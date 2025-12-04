@@ -8,24 +8,24 @@ const ourMission = () => {
       <h2 className="mission-title">OUR MISSION</h2><br></br>
 
       <div className="valuestext">
-        <p>
+        <h3>
           At Children Left Behind, our mission is to create, implement, and
           advocate for child-friendly policies that promote the holistic
           development and empowerment of children across the globe.
-        </p>
+        </h3>
 
-        <p>
+        <h3>
           We believe that governments, businesses, and civil society must come
           together to protect, nurture, and provide for every child, regardless
           of geography, ability, or socioeconomic status.
-        </p>
+        </h3>
 
-        <p>
+        <h3>
           Education is the foundation for breaking the cycle of poverty. We are
           committed to ensuring that every child has access to a quality
           education that upholds children’s rights, fosters empowerment, and
           enables them to become leaders of tomorrow.
-        </p>
+        </h3>
       </div>
 
       <div style={{paddingTop:'-20px'}}  className="values-bg">

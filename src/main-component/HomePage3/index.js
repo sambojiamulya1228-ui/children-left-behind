@@ -29,7 +29,7 @@ const HomePage3 = () => {
             <Howworks />
             <Lifeofchild />
             <CaseSlide />
-            <BlogSection />
+            {/* <BlogSection /> */}
             <Needs />
             <CtaSection ctaclass={'wpo-cta-area-2'} />
 

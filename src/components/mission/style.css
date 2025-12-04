@@ -19,9 +19,15 @@
     /* margin-top: 20px; */
     margin-bottom: 20px;
 }
-.wpo-mission-wrap .partner-links h3 a{
-    color: #91278f !important;
+.wpo-mission-wrap .partner-links h3 a {
+    color: #1C191E !important;
+    transition: 0.3s ease;  /* smooth color change */
 }
+
+.wpo-mission-wrap .partner-links h3 a:hover {
+    color: #91278f !important;   /* hover color */
+}
+
 .wpo-mission-item p {
     /* max-width: 250px; */
     margin: auto;
