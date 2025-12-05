@@ -10,6 +10,7 @@ const Header = () => {
     const SubmitHandler = (e) => {
         e.preventDefault()
     }
+    
 
     return (
         <div className="middle-header header-style-3">

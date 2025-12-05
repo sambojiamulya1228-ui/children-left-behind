@@ -2,6 +2,7 @@ import React from "react";
 import heroImg from "../images/icons/supporting-disability.png";
 import Header from "../components/header";
 import { useNavigate } from "react-router-dom";
+import Slider from "react-slick";
 // import "../css";
 import "../App"
 import img from "../images/icons/Union.svg"
@@ -11,7 +12,31 @@ import CtaSection from "../components/cta";
 import Needs from "../components/needs";
 import img1 from "../images/icons/Programs.svg"
 function Medicalcampaigns() {
-    const navigate = useNavigate();
+     const navigate = useNavigate();
+
+   // 🔥 MOBILE CAROUSEL SETTINGS
+  const settings = {
+    infinite: true,
+    speed: 2000,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+    arrows: true,
+    variableWidth: true,
+  };
+
+
+   const categories = [
+    { name: "Supporting the disabled", link: "/disability" },
+    { name: "Education", link: "/education" },
+    { name: "Medical campaigns", special: true },
+    { name: "Mission to India", link: "/tripofindia" },
+    { name: "Act for child protection", link: "/childtraffic" },
+    { name: "Nurturing playtime", link: "/nurturingplaytime" },
+    { name: "Disaster relief", link: "/disasterrelief" },
+  ];
     return (
         <>
             {/* 🌟 HERO SECTION */}
@@ -47,76 +72,38 @@ function Medicalcampaigns() {
                     We are committed to educating the families of children with disabilities and teaching families how to deal with and care for the child along with providing equipment or other essentials to meet the child’s needs. Many children have wide-ranging but treatable and often preventable medical problems. Almost none have a formal education, or any prospect of vocational opportunities.
                 </p>
             </div>
-            <section style={{ width: "100%", overflow: "hidden", paddingTop: '10px', background: "#fff" }}>
+            <section className="category-section container">
+      {/* DESKTOP VIEW (no carousel) */}
+      <div className="category-desktop">
+        <div className="category-list">
+          {categories.map((item, i) => (
+            <span
+              key={i}
+              onClick={() => !item.special && navigate(item.link)}
+              className={`cat-item ${item.special ? "special" : ""}`}
+            >
+              {item.name}
+            </span>
+          ))}
+        </div>
+      </div>
 
-                {/* animation and keyframes injected inside component */}
-                <style>{`
-    @keyframes autoScroll {
-      0%   { transform: translateX(0); }
-      100% { transform: translateX(-50%); }
-    }
-    .scroll-box {
-      animation: autoScroll 20s linear infinite;
-      display: flex;
-      white-space: nowrap;
-      align-items: center;
-      gap: 20px;
-    }
-  `}</style>
-                <hr></hr>
-                <div className="scroll-box">
-
-
-                    <span onClick={() => navigate("/education")} style={{ color: "#444", cursor: "pointer", gap: '12px' }} >Education</span>
-                    <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
-
-                    <span onClick={() => navigate("/medical")} style={{
-                        background: "#F2E5FF",
-                        color: "#7A3CFF",
-                        padding: "6px 12px",
-                        borderRadius: "5px",
-                        cursor: "pointer"
-                    }}>Medical campaigns</span>
-                    <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
-
-                    <span onClick={() => navigate("/disability")} style={{ color: "#444", cursor: "pointer", gap: '12px' }}>
-                        Supporting the disabled
-                    </span>
-                    <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
-
-                    <span onClick={() => navigate("/tripofindia")} style={{ color: "#444", cursor: "pointer", gap: '12px' }}>Mission to India</span>
-                    <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
-
-                    <span onClick={() => navigate("/childtraffic")} style={{ color: "#444", cursor: "pointer", gap: '12px' }}>Act for child protection</span>
-                    <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
-
-                    <span onClick={() => navigate("/nurturingplaytime")} style={{ color: "#444", cursor: "pointer", gap: '12px' }}>Nurturing playtime</span>
-                    <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
-
-                    <span onClick={() => navigate("/disasterrelief")} style={{ color: "#444", cursor: "pointer", gap: '12px' }}>Disaster relief</span>
-
-                    {/* DUPLICATE FOR INFINITE LOOP */}
-                    <span onClick={() => navigate("/education")} style={{ color: "#444", cursor: "pointer", gap: '12px' }}>Education</span>
-                    <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
-
-                    <span onClick={() => navigate("/medical")} style={{
-                        background: "#F2E5FF",
-                        color: "#7A3CFF",
-                        padding: "6px 12px",
-                        borderRadius: "5px",
-                        cursor: "pointer"
-                    }}>Medical campaigns</span>
-                    <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
-
-                    <span onClick={() => navigate("/disability")} style={{ color: "#444", cursor: "pointer", gap: '12px' }} >Supporting the disabled </span>
-                    <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
-
-                    <span onClick={() => navigate("/tripofindia")} style={{ color: "#444", cursor: "pointer", gap: '12px' }}>Mission to India</span>
-
-                </div>
-                <hr></hr>
-
-            </section>
+      {/* MOBILE VIEW (carousel) */}
+      <div className="category-mobile">
+        <Slider {...settings}>
+          {categories.map((item, i) => (
+            <div key={i} style={{ width: "auto" }}>
+              <span
+                onClick={() => !item.special && navigate(item.link)}
+                className={`cat-item ${item.special ? "special" : ""}`}
+              >
+                {item.name}
+              </span>
+            </div>
+          ))}
+        </Slider>
+      </div>
+    </section>
 
 
             {/* 🌟 CONTENT SECTION */}

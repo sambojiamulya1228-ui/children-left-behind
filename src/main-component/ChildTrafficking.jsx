@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import Slider from "react-slick";
 import heroImg from "../images/icons/supporting-disability.png";
 import Header from "../components/header";
 import Footer from "../components/footer";
@@ -10,7 +11,31 @@ import img from "../images/icons/Union.svg";
 import img1 from "../images/icons/Programs.svg";
 
 function ChildTrafficking() {
-  const navigate = useNavigate();
+   const navigate = useNavigate();
+
+   // 🔥 MOBILE CAROUSEL SETTINGS
+  const settings = {
+    infinite: true,
+    speed: 2000,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+    arrows: true,
+    variableWidth: true,
+  };
+
+
+   const categories = [
+    { name: "Supporting the disabled", link: "/disability" },
+    { name: "Education", link: "/education" },
+    { name: "Medical campaigns", link: "/medical" },
+    { name: "Mission to India", link: "/tripofindia" },
+    { name: "Act for child protection", special: true },
+    { name: "Nurturing playtime", link: "/nurturingplaytime" },
+    { name: "Disaster relief", link: "/disasterrelief" },
+  ];
 
   return (
     <>
@@ -50,83 +75,38 @@ function ChildTrafficking() {
       </div>
 
       {/* 🌟 SCROLL MENU SECTION */}
-      <section style={{ width: "100%", overflow: "hidden", padding: "0", background: "#fff" }}>
-        <style>{`
-          @keyframes autoScroll {
-            0% { transform: translateX(0); }
-            100% { transform: translateX(-50%); }
-          }
-          .scroll-box {
-            animation: autoScroll 20s linear infinite;
-            display: flex;
-            white-space: nowrap;
-            align-items: center;
-            gap: 20px;
-          }
-        `}</style>
-
-        <hr />
-
-
-        <div className="scroll-box">
-
-
-          <span onClick={() => navigate("/education")} style={{
-            background: "#F2E5FF",
-            color: "#7A3CFF",
-            padding: "6px 12px",
-            borderRadius: "5px",
-            cursor: "pointer"
-          }}>Education</span>
-          <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
-
-          <span onClick={() => navigate("/medical")} style={{ color: "#444", cursor: "pointer", gap: '12px' }}>Medical campaigns</span>
-          <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
-
-          <span onClick={() => navigate("/disability")} style={{ color: "#444", cursor: "pointer", gap: '12px' }}>
-            Supporting the disabled
-          </span>
-          <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
-
-          <span onClick={() => navigate("/tripofindia")} style={{ color: "#444", cursor: "pointer", gap: '12px' }}>Mission to India</span>
-          <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
-
-          <span onClick={() => navigate("/childtraffic")} style={{
-            background: "#F2E5FF",
-            color: "#7A3CFF",
-            padding: "6px 12px",
-            borderRadius: "5px",
-            cursor: "pointer"
-          }}>Act for child protection</span>
-          <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
-
-          <span onClick={() => navigate("/nurturingplaytime")} style={{ color: "#444", cursor: "pointer", gap: '12px' }}>Nurturing playtime</span>
-          <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
-
-          <span onClick={() => navigate("/disasterrelief")} style={{ color: "#444", cursor: "pointer", gap: '12px' }}>Disaster relief</span>
-
-          {/* DUPLICATE FOR INFINITE LOOP */}
-          <span onClick={() => navigate("/education")} style={{
-            background: "#F2E5FF",
-            color: "#7A3CFF",
-            padding: "6px 12px",
-            borderRadius: "5px",
-            cursor: "pointer"
-          }}>Education</span>
-          <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
-
-          <span onClick={() => navigate("/medical")} style={{ color: "#444", cursor: "pointer", gap: '12px' }}>Medical campaigns</span>
-          <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
-
-          <span onClick={() => navigate("/disability")} style={{ color: "#444", cursor: "pointer", gap: '12px' }} >Supporting the disabled </span>
-          <span style={{ color: "#ccc", fontSize: "20px", gap: '12px' }}></span>
-
-          <span onClick={() => navigate("/tripofindia")} style={{ color: "#444", cursor: "pointer", gap: '12px' }}>Mission to India</span>
-
+       <section className="category-section container">
+      {/* DESKTOP VIEW (no carousel) */}
+      <div className="category-desktop">
+        <div className="category-list">
+          {categories.map((item, i) => (
+            <span
+              key={i}
+              onClick={() => !item.special && navigate(item.link)}
+              className={`cat-item ${item.special ? "special" : ""}`}
+            >
+              {item.name}
+            </span>
+          ))}
         </div>
+      </div>
 
-        <hr />
-      </section>
+      {/* MOBILE VIEW (carousel) */}
+      <div className="category-mobile">
+        <Slider {...settings}>
+          {categories.map((item, i) => (
+            <div key={i} style={{ width: "auto" }}>
+              <span
+                onClick={() => !item.special && navigate(item.link)}
+                className={`cat-item ${item.special ? "special" : ""}`}
+              >
+                {item.name}
+              </span>
+            </div>
+          ))}
+        </Slider>
+      </div>
+    </section>
 
       {/* 🌟 CONTENT SECTION */}
       <section className="content-section">
