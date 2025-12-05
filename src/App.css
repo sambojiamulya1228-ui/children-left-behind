@@ -6,16 +6,59 @@
   height: 40vmin;
   pointer-events: none;
 }
-.slide-section .slick-next,
-.slide-section .slick-prev{
-  
+.category-section {
+  width: 90%;
+  background: #fff;
+  padding: 15px 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
 }
-.slide-section .slick-next{
+
+.cat-item {
+  color: #444;
+  cursor: pointer;
+  margin-right: 25px;
+  font-size: 15px;
+  white-space: nowrap;
+}
+
+.cat-item.special {
+  background: #F2E5FF;
+  color: #7A3CFF;
+  padding: 6px 12px;
+  border-radius: 5px;
+}
+
+.category-desktop {
+  display: block;
+}
+
+.category-mobile {
+  display: none;
+}
+
+/* MOBILE ONLY */
+@media (max-width: 768px) {
+  .category-desktop {
+    display: none;
+  }
+  .category-mobile {
+    display: block;
+  }
+
+  .cat-item {
+    margin-right: 10px;
+    display: inline-block;
+  }
+  .category-section .category-mobile .slick-next{
   right: -40px;
 }
-.slide-section .slick-prev{
+.category-section .category-mobile .slick-prev{
   left: -40px;
 }
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

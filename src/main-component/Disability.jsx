@@ -16,34 +16,29 @@ function Disability() {
 
     const navigate = useNavigate();
 
-    const settings = {
-        infinite: true,
-        speed: 1000,                 // long duration for smooth scroll
-        autoplay: true,
-        autoplaySpeed: 3000,            // required for continuous
-        cssEase: "linear",           // smooth continuous motion
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        arrows: true,
-        dots: false,
-        variableWidth: true,
-        pauseOnHover: false,         // optional
-        draggable: true,            // optional
-    };
+   // 🔥 MOBILE CAROUSEL SETTINGS
+  const settings = {
+    infinite: true,
+    speed: 2000,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 0,
+    cssEase: "linear",
+    arrows: true,
+    variableWidth: true,
+  };
 
 
-    const items = [
-        { label: "Education", link: "/education" },
-        { label: "Medical campaigns", link: "/medical" },
-        {
-            label: "Supporting the disabled",
-            highlight: true
-        },
-        { label: "Mission to India", link: "/tripofindia" },
-        { label: "Act for child protection", link: "/childtraffic" },
-        { label: "Nurturing playtime", link: "/nurturingplaytime" },
-        { label: "Disaster relief", link: "/disasterrelief" },
-    ];
+   const categories = [
+    { name: "Supporting the disabled", special: true },
+    { name: "Education", link: "/education" },
+    { name: "Medical campaigns", link: "/medical" },
+    { name: "Mission to India", link: "/tripofindia" },
+    { name: "Act for child protection", link: "/childtraffic" },
+    { name: "Nurturing playtime", link: "/nurturingplaytime" },
+    { name: "Disaster relief", link: "/disasterrelief" },
+  ];
     return (
         <>
             {/* 🌟 HERO SECTION */}
@@ -83,35 +78,38 @@ function Disability() {
                     We are committed to educating the families of children with disabilities and teaching families how to deal with and care for the child along with providing equipment or other essentials to meet the child’s needs. Many children have wide-ranging but treatable and often preventable medical problems. Almost none have a formal education, or any prospect of vocational opportunities.
                 </p>
             </div>
-            <section style={{ width: "80%", margin: "0 auto", background: "#fff", padding: "5px 0" }} className="slide-section">
-                <hr />
+            <section className="category-section container">
+      {/* DESKTOP VIEW (no carousel) */}
+      <div className="category-desktop">
+        <div className="category-list">
+          {categories.map((item, i) => (
+            <span
+              key={i}
+              onClick={() => !item.special && navigate(item.link)}
+              className={`cat-item ${item.special ? "special" : ""}`}
+            >
+              {item.name}
+            </span>
+          ))}
+        </div>
+      </div>
 
-                <Slider {...settings}>
-                    {items.concat(items).map((item, index) => (
-                        <div key={index} style={{ width: "auto" }}>
-                            <span
-                                onClick={() => item.link && navigate(item.link)}
-                                style={{
-                                    color: item.highlight ? "#7A3CFF" : "#444",
-                                    background: item.highlight ? "#F2E5FF" : "transparent",
-                                    padding: item.highlight ? "6px 12px" : "0",
-                                    borderRadius: "5px",
-                                    cursor: "pointer",
-                                    margin: "0 20px",
-                                    whiteSpace: "nowrap",
-                                    fontSize: "16px",
-                                    overflow: "hidden",
-                                    textOverflow: "ellipsis",
-                                }}
-                            >
-                                {item.label}
-                            </span>
-                        </div>
-                    ))}
-                </Slider>
-
-                <hr />
-            </section>
+      {/* MOBILE VIEW (carousel) */}
+      <div className="category-mobile">
+        <Slider {...settings}>
+          {categories.map((item, i) => (
+            <div key={i} style={{ width: "auto" }}>
+              <span
+                onClick={() => !item.special && navigate(item.link)}
+                className={`cat-item ${item.special ? "special" : ""}`}
+              >
+                {item.name}
+              </span>
+            </div>
+          ))}
+        </Slider>
+      </div>
+    </section>
 
 
 
