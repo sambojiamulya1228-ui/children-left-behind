@@ -147,6 +147,6 @@ function Disability() {
             </section>
         </>
     );
-}
+}s
 
 export default Disability;
