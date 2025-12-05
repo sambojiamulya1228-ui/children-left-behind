@@ -23,7 +23,7 @@ function Disability() {
     slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 0,
+    autoplaySpeed: 2000,
     cssEase: "linear",
     arrows: true,
     variableWidth: true,
