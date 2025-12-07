@@ -49,7 +49,9 @@ function Medicalcampaigns() {
                 </div>
 
                 {/* LEFT CONTENT on Desktop — BELOW on Mobile */}
-                <div className="program-content">
+                <div className="program-content" 
+                // style={{marginLeft: "50px"}}
+                >
                     <h1 style={{ color: '#1C191E' }} className="program-title">
                         Aims to bridge the <br />
                         gaps in education and <br />

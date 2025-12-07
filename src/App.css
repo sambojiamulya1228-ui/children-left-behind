@@ -11,8 +11,8 @@
   width: 90%;
   background: #fff;
   padding: 15px 0;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
+  /* border-top: 1px solid #eee; */
+  /* border-bottom: 1px solid #eee; */
 }
 
 .cat-item {

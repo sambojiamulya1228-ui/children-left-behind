@@ -512,7 +512,7 @@ h2 {
 
 
 .program-hero {
-  width: 1150px;
+  width: 1170px;
   height: 370px;
  background: linear-gradient(to bottom, #FFFFFF, #F8F0FF);
   border-radius: 10px;
@@ -541,6 +541,7 @@ h2 {
 .program-content {
   flex: 1;
   order: 1; /* Desktop: content on left */
+  margin-left: 50px;
 }
 
 .program-title {
