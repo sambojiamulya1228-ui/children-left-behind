@@ -372,8 +372,8 @@
   }
 }
 
-.Remodeling {
-  color: '#7D7188' !important;
+#remodeling , h2 {
+   color: #7D7188 !important; ;
 }
 
 /* Desktop default images are already loaded from React */

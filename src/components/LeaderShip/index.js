@@ -123,7 +123,7 @@ const TeamSection = () => {
 
             <div
   style={{
-    backgroundColor: "#F8F0FF",
+    backgroundColor: "#F7F5FA",
     borderRadius: "6px",
     padding: "20px",
   }}

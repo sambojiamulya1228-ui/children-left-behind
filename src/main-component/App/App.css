@@ -772,3 +772,10 @@ h5{
   text-align: center !important;
   color: #7D7188 !important;
 }
+.text-muted,p{
+  color: #37323c !important; ;
+}
+
+.text-muted, h2{
+   color: #37323c !important; ;
+}
