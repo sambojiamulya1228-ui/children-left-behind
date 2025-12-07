@@ -83,16 +83,16 @@ const Mission = (props) => {
             </div>
 
             {/* RIGHT SIDE - Image Carousel */}
-            <div className="col-lg-5">
+            <div className="col-lg-5 imgs p-0">
               <Slider {...settings}>
                 <div>
-                  <img style={{ borderRadius: "12px" }} src={img1} className="carousel-img w-100" alt="" />
+                  <img  src={img1} className=" w-100" alt="" />
                 </div>
                 <div>
-                  <img style={{ borderRadius: "12px" }} src={img2} className="carousel-img w-100" alt="" />
+                  <img  src={img2} className=" w-100" alt="" />
                 </div>
                 <div>
-                  <img style={{ borderRadius: "12px" }} src={img3} className="carousel-img w-100" alt="" />
+                  <img  src={img3} className=" w-100" alt="" />
                 </div>
               </Slider>
             </div>

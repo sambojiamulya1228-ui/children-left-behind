@@ -8,7 +8,7 @@ import './style.css'
 const Mission = (props) => {
     return (
         <div className={`wpo-mission-area ${props.subclass}`}>
-            <div className="container heart pb-5 mb-5">
+            <div className="container heart pb-5 mb-2">
   
                 <div className="row">
                     <img src={LeftBG} alt="" className="pavani-left" />
