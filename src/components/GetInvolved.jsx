@@ -45,11 +45,11 @@ function GetInvolved() {
 
   const categories = [
     { name: "Sponsorship", special: true },
-    { name: "Corporate Partnerships", link: "/education" },
-    { name: "Donation", link: "/tripofindia" },
-    { name: "Legacy Giving", link: "/tripofindia" },
-    { name: "Volunteering", link: "/childtraffic" },
-    { name: "Awareness Programs", link: "/nurturingplaytime" },
+    { name: "Corporate Partnerships", link: "/corporratepartnerships" },
+    { name: "Donation", link: "/ontimegiving" },
+    { name: "Legacy Giving", link: "/legacygiving" },
+    { name: "Volunteering", link: "/volunteering" },
+    { name: "Awareness Programs", link: "/awarenessprograms" },
   ];
 
   const data = [
@@ -274,7 +274,7 @@ function GetInvolved() {
           </div>
           <br />
 
-          <div>
+          <div className="buttons_container">
             <button
               style={{
                 gap: "6px",
@@ -352,7 +352,7 @@ function GetInvolved() {
             Ranging from corporate volunteering at a local level, workplace giving<br /> programs to multi-faceted sponsor and partner programs. Here are some<br /> ways your company can be involved
             <br /></h2><br />
 
-          <div>
+          <div className="buttons_container">
             <button
               style={{
                 gap: "6px",
@@ -457,7 +457,7 @@ function GetInvolved() {
           </div><br />
           <p>One-Time giving is a way to help children in the partnering organizations through single donation. This option entails not only for the make a difference aspect but as well for the event based, where your funds are offered on your special occasions like birthday or In the loving memory of your family member or any other events</p><br />
 
-          <div>
+          <div className="buttons_container">
             <button
               style={{
                 gap: "6px",
@@ -517,7 +517,7 @@ function GetInvolved() {
               </span>
             ))}
           </div><br />
-          <div>
+          <div className="buttons_container">
             <button
               style={{
                 gap: "6px",
@@ -594,7 +594,7 @@ function GetInvolved() {
 
           </p>
 
-          <div>
+          <div className="buttons_container">
             <button
               style={{
                 gap: "6px",
@@ -633,7 +633,7 @@ function GetInvolved() {
           </h2><br />
 
 
-          <div>
+          <div className="buttons_container">
             <button
               style={{
                 gap: "6px",
@@ -720,4 +720,4 @@ function GetInvolved() {
   );
 }
 
-export default GetInvolved;
+export default GetInvolved; 

@@ -739,7 +739,20 @@ h5{
   width: 30%;
   text-align: center;
 }
-
+@media (max-width:768px){
+  .three-sections{
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-box{
+    width: 100%;
+  }
+  .buttons_container{
+    button{
+      width: 100% !important;
+    }
+  }
+}
 .section-box h3 {
   font-family: "Awesome Serif", serif;
   font-weight: 600;

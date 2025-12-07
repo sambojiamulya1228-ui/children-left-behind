@@ -46,6 +46,11 @@ import GetInvolved from '../../components/GetInvolved';
 import PovertyInIndia from '../../components/PovertyInIndia';
 import FactOnChildren from '../../components/FactsOnChildren';
 import Statsofindia from '../../components/StatsofIndia';
+import CorporatePartnerships from '../../components/CorporatePartnerships';
+import OneTimeGiving from '../../components/OneTimeGiving';
+import LegacyGiving from '../../components/LegacyGiving';
+import Volunteering from '../../components/Volunteering';
+import AwarenessPrograms from '../../components/AwarenessPrograms';
 
 
 const AllRoute = () => {
@@ -101,6 +106,12 @@ const AllRoute = () => {
            <Route path='/povertyinindia' element={<PovertyInIndia/>}></Route>
            <Route path='/factonchildren' element={<FactOnChildren/>}></Route>
            <Route path='/statsofindia' element={<Statsofindia/>}></Route>
+           <Route path='/corporratepartnerships' element={<CorporatePartnerships/>}></Route>
+           <Route path='/ontimegiving' element={<OneTimeGiving/>}></Route>
+           <Route path='/legacygiving'  element={<LegacyGiving/>}></Route>
+           <Route path='/volunteering' element={<Volunteering/>}></Route>
+           <Route path='/awarenessprograms' element={<AwarenessPrograms/>}></Route>
+
 
         </Routes>
         <Footer />
