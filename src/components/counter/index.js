@@ -38,7 +38,7 @@ const CounterSection = (props) => {
     };
 
     return (
-        <div  className={`wpo-counter-area ${props.countclass}`}>
+        <div  className={`wpo-counter-area counter-section ${props.countclass}`}>
             <div className="container">
                 <div className="row justify-content-center">
 

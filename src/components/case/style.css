@@ -1,5 +1,5 @@
 .wpo-case-area {
-  background: #f7fbfe;
+  /* background: #f7fbfe; */
 }
 
 .progress-section {
@@ -132,7 +132,7 @@
 
 .wpo-case-img img {
   width: 500px;
-  height: 400px;
+  height: 300px;
   object-fit: cover;
 }
 

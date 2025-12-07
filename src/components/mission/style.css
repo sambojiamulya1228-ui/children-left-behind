@@ -94,7 +94,24 @@ margin: auto;
     } */
 }
 
+.wpo-mission-area.org .imgs{
 
+    position: relative;
+
+    box-shadow: 0px 20px 40px 8px #0000001a;
+
+}
+.wpo-mission-area.org .imgs div{
+    /* width:; */
+    height:350px;
+        border-radius: 8px;
+    overflow: hidden;
+}
+.wpo-mission-area.org .imgs div img{
+    height: 100%;
+    object-fit: cover;
+
+}
 
 .wpo-mission-icon-5,
 .wpo-mission-icon-6,

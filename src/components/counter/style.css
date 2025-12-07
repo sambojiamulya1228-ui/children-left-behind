@@ -4,7 +4,15 @@
     /* background: url('../../images/counter/img-1.png') no-repeat center center / cover; */
     position: relative;
 }
-
+.counter-section h2{
+margin:0;
+}
+.counter-section p{
+margin:0;
+}
+.counter-section .container{
+    max-width:1200px;
+}
 .wpo-counter-area {
     margin-top: 20px;
 }

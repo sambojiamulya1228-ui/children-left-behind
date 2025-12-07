@@ -4,7 +4,7 @@
 .heart .pavani-left {
   position: absolute;
   left: -80px;
-  bottom: -100px;
+  bottom: 0px;
   width: 260px;
   opacity: 1;
   z-index: 0;
@@ -14,12 +14,14 @@
 .heart .pavani-right {
   position: absolute;
   right: -80px;
-  bottom: -100px;
+  bottom: 0px;
   width: 260px;
   opacity: 1;
   z-index: 0;
 }
-
+.wpo-mission-area{
+  padding-bottom: 0;
+}
 @media (max-width: 992px) {
   .heart .pavani-title {
     font-size: 36px;

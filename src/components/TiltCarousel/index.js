@@ -11,82 +11,48 @@ import Img3 from "../../images/slider/gallery3.jpg";
 import Img4 from "../../images/slider/gallery4.jpg";
 
 class TiltCarousel extends Component {
-  // const TiltCarousel = () => {
   render() {
-    var settings = {
+    const settings = {
       dots: false,
       arrows: false,
       infinite: true,
-      speed: 500,
+      speed: 600,
       slidesToShow: 3,
       slidesToScroll: 1,
       autoplay: true,
-      margin: 10,
-      loop: true,
-      centerMode: true,
+      autoplaySpeed: 2000,
+      centerMode: false,
+      centerPadding: "0px",
       responsive: [
-        {
-          breakpoint: 1200,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            infinite: true
-          }
-        },
-        {
-          breakpoint: 991,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        },
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        },
-        {
-          breakpoint: 576,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
+        { breakpoint: 992, settings: { slidesToShow: 2 } },
+        { breakpoint: 768, settings: { slidesToShow: 1 } }
       ]
     };
 
     return (
       <div className="tilt-wrapper">
         <Slider {...settings}>
-          <div>
-            <div className="tilt-card rotate-1">
-              <img src={Img1} alt="" />
-            </div>
+
+          <div className="tilt-card rotate-1">
+            <img src={Img1} alt="" />
           </div>
 
-          <div>
-            <div className="tilt-card rotate-2">
-              <img src={Img2} alt="" />
-            </div>
+          <div className="tilt-card rotate-2">
+            <img src={Img2} alt="" />
           </div>
 
-          <div>
-            <div className="tilt-card rotate-3">
-              <img  src={Img3} alt="" />
-            </div>
+          <div className="tilt-card rotate-3">
+            <img src={Img3} alt="" />
           </div>
 
-          <div>
-            <div className="tilt-card rotate-4">
-              <img src={Img4} alt="" />
-            </div>
+          <div className="tilt-card rotate-4">
+            <img src={Img4} alt="" />
           </div>
+
         </Slider>
       </div>
     );
-  };
+  }
 }
 
 export default TiltCarousel;
