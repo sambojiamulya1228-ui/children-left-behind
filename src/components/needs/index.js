@@ -15,12 +15,13 @@ const About = () => {
           {/* LEFT CONTENT */}
           <div className="col-lg-6 col-md-12">
             <div className="needs-text">
-              <h2>
-                <span className="highlight">20 million</span> Children have no
+              <br></br>
+              <h5>
+                <span className="highlight">20 million</span> Children have no <br></br>
                 access to basic needs
-              </h2>
+              </h5>
               <p>
-                Join us to make a small difference even more impactful with our
+                Join us to make a small difference even more<br></br> impactful with our
                 trusted partners.
               </p>
 

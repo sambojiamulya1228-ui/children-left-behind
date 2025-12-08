@@ -17,6 +17,7 @@ const CurvedText = () => {
         <text fontSize="30" fill="#7E33E0" fontWeight="500">
           <textPath href="#leftCurve" startOffset="0%">
             A drop in the Ocean.....
+            <br></br>
           </textPath>
         </text>
       </svg>

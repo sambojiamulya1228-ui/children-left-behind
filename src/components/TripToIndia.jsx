@@ -69,14 +69,45 @@ function TripToIndia() {
 
 
             <div style={{}}>
-                <p style={{ paddingLeft: '50px' }}>
+                {/* <p style={{ paddingLeft: '50px' }}> */}
+
+                 <p style = {{
+    margin: "5px 264px auto",
+    width: "1164px", marginLeft: "176px"}}>
                     We are committed to educating the families of children with disabilities and teaching families how to deal with and care for the child along with providing equipment or other essentials to meet the child’s needs. Many children have wide-ranging but treatable and often preventable medical problems. Almost none have a formal education, or any prospect of vocational opportunities.
                 </p>
             </div>
             <section className="category-section container">
       {/* DESKTOP VIEW (no carousel) */}
-      <div className="category-desktop">
-        <div className="category-list">
+      <div className="category-desktop"
+      
+      style={{
+                   width: "100vw",
+    height: "1px",
+    background: "#ebebeb",
+    position: "relative",
+    left: "50%",
+    transform: "translateX(-50%)"
+
+                 }}
+      
+      
+      >
+        <div className="category-list"
+        
+        style={{
+                     borderBottom : "1px solid #ebebeb",
+            // background : "#ebebeb",
+            paddingBottom: "3px",
+            width : "100vw",
+            // position : "relative",
+            // transform : "translate(-50%)",
+            left: "50%",
+            paddingTop: "10px",
+            paddingLeft: "204px"
+                   }}
+
+        >
           {categories.map((item, i) => (
             <span
               key={i}
@@ -117,16 +148,16 @@ function TripToIndia() {
                         we are committed to educating the families of children with disabilities and teaching families how to deal with and care for the child along with providing equipment or other essentials to meet the child’s needs. Many children have wide-ranging but treatable and often preventable medical problems. Almost none have a formal education, or any prospect of vocational opportunities.
                     </p> */}
 
-                    <h2 style={{ width: "100%", overflow: "hidden", padding: "0px 0", background: "#fff" }} className="sub-title mt-5">Mission oF india</h2><br></br>
-                    <p className="description">
+                    <h2 style={{ width: "100%", overflow: "hidden", padding: "2px 0", background: "#fff", marginLeft: "-20px" }} className="sub-title mt-5">Mission of india</h2><br></br>
+                    <p className="description"  style={{marginLeft: "50px"}}>
                         Traveling to India is a unique and inspiring experience. Children Left Behind organizes and puts together teams of people to travel there together and serve. You will be able to meet the children and staff at the homes, and see first-hand how your contributions help the homes. Frank Viswanath and his team are very gracious hosts, and they do everything they can to make your stay comfortable.<br></br><br></br>
 
                         For more information on joining a visiting team, please email: info@childrenleftbehind.org.<br></br><br></br>
 
                         We invite you to experience first-hand the amazing work we do in the orphanages we support. A trip to an orphanage will change your life. You’ll fall in love with the children, be inspired by their housemothers, meet their social workers, eat in their dining rooms and/or help them with an improvement project—it’s a powerful experience of a lifetime. </p><br></br>
 
-                    <h2 style={{ width: "100%", overflow: "hidden", padding: "0px 0", background: "#fff" }} className="sub-title mt-5">Medical Mission Opportunities</h2><br></br><br></br>
-                    <p className="description">
+                    <h2 style={{ width: "100%", overflow: "hidden", padding: "0px 0", background: "#fff", marginLeft: "-20px" }} className="sub-title mt-5">Medical Mission Opportunities</h2><br></br><br></br>
+                    <p className="description" style={{marginLeft: "50px"}}>
                         Children Left Behind’s goal is to put together teams of medical professionals, students, and volunteers to make medical mission trips to India.<br></br><br></br>
 
                         These mission trips provide medical assistance and education to children and families in need. There are many needs in this area; medical mission trips will provide a rewarding and fulfilling experience for those involved.<br></br><br></br>

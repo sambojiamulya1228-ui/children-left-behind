@@ -11,14 +11,14 @@
 }
 .curved-wrapper .curve-left-svg{
     position: absolute;
-top:-140px;
+top:-174px;
 left:40px;
 font-family: "BonV-all";
 }
 .curved-wrapper .curve-right-svg {
     position: absolute;
- top:-200px;
- right:-40px;
+ top:-234px;
+ right:120px;
  font-family: "BonV-all";
 }
 .curve-left-svg,

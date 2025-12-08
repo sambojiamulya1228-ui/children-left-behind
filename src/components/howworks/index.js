@@ -10,9 +10,18 @@ const Mission = (props) => {
                 <div className="row">
                     <div className="col-12">
                         <div className="wpo-section-title">
+                            <br></br>
+                            <br></br>
                             <span style={{fontSize:'16px', fontWeight:'500', color:'#91278f'}}>HOW IT WORKS</span>
                             <h2>Children Are elevated  beyond survival</h2>
-                            <p> where they may flourish and have a chance to live with dignity and purpose.</p>
+                            <br></br>
+                            <br></br>
+                            <p 
+                            style={{width: "70%",
+                                paddingLeft: "322px"
+                            }}
+                            > where they may flourish and have a chance 
+                                to live with dignity and purpose.</p>
                         </div>
                     </div>
                 </div>
@@ -32,7 +41,9 @@ const Mission = (props) => {
                         <div className="col-lg-12 col-md-12 col-sm-12 col-12 custom-grid">
                             <div className="wpo-mission-item text-center">
                                
-                                <div className="wpo-mission-content">
+                                <div className="wpo-mission-content"
+                                style={{paddingLeft: "50px"}}
+                                >
                                     <p>With the core principle of Maslow’s law of hierarchy, we diligently work towards connecting children in need partners with resources. All the donations, medical and educational resources obtained from sponsors, volunteers are catered to the unique needs of children. </p>
                                 </div>
                             </div>

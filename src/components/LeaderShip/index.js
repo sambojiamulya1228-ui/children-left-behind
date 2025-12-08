@@ -9,7 +9,10 @@ const TeamSection = () => {
         <div className="container leadership py-5 leader">
             {/* Section Title */}
             <div className="text-center mb-5">
-                <p className="text-uppercase small fw-bold whoweare">Who We Are</p>
+                <p className="text-uppercase small fw-bold whoweare"
+                style={{ paddingTop : "96px"}}
+                
+                >Who Are We</p>
                 <h2 className="fw-bold">Entrusted with Stewardship</h2>
             </div>
 
@@ -27,16 +30,16 @@ const TeamSection = () => {
                     />
                     <h4 className="fw-bold mb-1">Oswald Dhanaraj</h4>
                     <p className="purplee fw-semibold">President & CEO</p>
-                    <p className="text-muted">
+                    <p className="text-muted" style={{paddingLeft : "50px", textAlign: "center", paddingRight: "50px"}}>
                         Growing up in India, Oswald saw firsthand the struggles that children face.
                         After moving to the United States, he dedicated his life to supporting
                         underserved children and co-founded Children Left Behind to ensure every
                         child has the opportunity to thrive.
                     </p>
-                    <p className="text-muted">
+                    <p className="text-muted" style={{paddingLeft : "50px", textAlign: "center", paddingRight: "50px"}}>
                       It is Oswald’s desire to help underprivileged and orphaned children to have the same opportunities he had. He co-founded Children Left Behind to partner and work with his childhood friend and classmate Frank Viswanath to provide an environment where children’s educational, medical, and living needs can be provided for.
                     </p>
-                    <p className="text-muted">
+                    <p className="text-muted" style={{paddingLeft : "50px", textAlign: "center", paddingRight: "50px"}}>
                       He passionately believes every child should have the chance to fulfill their potential. It’s simply not right that children suffer neglect or abuse, or are held back because of disadvantage.
                     </p>
                 </div>
@@ -53,15 +56,15 @@ const TeamSection = () => {
                     />
                     <h4 className="fw-bold mb-1">Frank Viswanath</h4>
                     <p className="purplee fw-semibold">International Director</p>
-                    <p className="text-muted">
+                    <p className="text-muted" style={{paddingLeft : "50px", textAlign: "center", paddingRight: "50px"}}>
                         Frank is committed to helping children with disabilities and impoverished
                         families. With years of international service, he leads missions to provide
                         food, education, shelter, and medical care for vulnerable children.
                     </p>
-                    <p className="text-muted">
+                    <p className="text-muted" style={{paddingLeft : "50px", textAlign: "center", paddingRight: "50px"}}>
                       As International Director, Frank’s duties are to oversee both U.S. and overseas operations, which include fund raising and program development. Frank has been helping children and families affected by hunger, disabilities, and homelessness for over 20 years and has made this a priority for the organization.
                     </p>
-                    <p className="text-muted">
+                    <p className="text-muted" style={{paddingLeft : "50px", textAlign: "center", paddingRight: "50px"}}>
                       Frank has pioneered several projects over the years and has produced remarkable results. Frank travels internationally and raises funds to support children in desperate need.
                     </p>
                 </div>
@@ -78,16 +81,16 @@ const TeamSection = () => {
                     />
                     <h4 className="fw-bold mb-1">Amy Dempsey</h4>
                     <p className="purplee fw-semibold">Executive Director</p>
-                    <p className="text-muted">
+                    <p className="text-muted" style={{paddingLeft : "50px", textAlign: "center", paddingRight: "50px"}}>
                         Amy is a registered nurse with a passion for child welfare. She supports
                         Children Left Behind by organizing medical care, fundraising programs, and
                         outreach initiatives. Her work helps children receive essential support
                         and love.
                     </p>
-                    <p className="text-muted">
+                    <p className="text-muted" style={{paddingLeft : "50px", textAlign: "center", paddingRight: "50px"}}>
                       Amy initiates and organizes meetings and events to help raise funding and project support. She also directs fundraising, communications and policy. 
                     </p>
-                    <p className="text-muted">
+                    <p className="text-muted" style={{paddingLeft : "50px", textAlign: "center", paddingRight: "50px"}}>
                       Amy also helps coordinate volunteers and interns to travel to India, providing a life changing experience in serving and helping children in need.
                     </p>
                 </div>
@@ -132,8 +135,8 @@ const TeamSection = () => {
   </h3>
 
   <p className="text-muted mb-3">
-    We're always excited to welcome people who want to help bring positive
-    change to children in need.
+    We're always excited to welcome anyone who shares our mission! We truly believe you'd be a fantastic addition to our vibrant community.
+  
   </p>
 
   <button

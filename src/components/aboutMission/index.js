@@ -14,13 +14,15 @@ const Mission = (props) => {
                             <span>OUR MISSION</span>
                             <h2>Child Friendly World</h2><br></br><br></br>
                             <p>We envision a world where every child has the opportunity to <br/> thrive, a world that protects, nurtures, and empowers its youngest<br/> citizens.</p>
+                            <br></br>
+                            <br></br>
                         </div>
                     </div>
                 </div>
                 <div className="wpo-mission-wrap">
                     <div className="row align-items-center justify-content-center">
                         <div className='col-lg-12 text-center'>
-                            <h2 id='remodeling'>Remodeling a world where</h2>
+                            <h5 id='remodeling'>Remodeling a world where</h5>
                         </div>
                         <div className='col-lg-3'>
                             <div   className="wpo-mission-content">

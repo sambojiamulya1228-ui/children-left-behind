@@ -17,11 +17,11 @@ const WhatWeDo = () => {
             <p className="whatwe">What We Do</p><br></br>
 
 
-            <h2 className="mx-auto" style={{ maxWidth: "900px", color: '#1C191E', fontWeight: '600', fontSize: '36px', lineHeight: '44px', letterSpacing: '2%' }}>
-                We are a non-profit children’s humanitarian charity, committed to
-                improving the lives of children in developing countries by providing
-                education and proper medical care.
-            </h2>
+            <h4 className="mx-auto" 
+            // style={{ maxWidth: "900px", color: '#1C191E', fontWeight: '400', fontSize: '30px', lineHeight: '44px', letterSpacing: '2%' }}
+            >
+                We are a non-profit children’s humanitarian charity, committed to improving the lives of children in developing countries around the world through providing education and proper medical care.
+            </h4>
 
             {/* TAGS */}
             {/* <div className="d-flex flex-wrap justify-content-center mt-4 gap-2">

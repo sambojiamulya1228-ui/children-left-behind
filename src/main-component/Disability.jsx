@@ -101,9 +101,15 @@ style={{
     width: "100vw",
     height: "1px",
     background: "#ebebeb",
-    position: "relative",
+    // top: "0",
+    // zIndex : "1000",
+    // paddingTop: "20px",
     left: "50%",
-    transform: "translateX(-50%)"
+    transform: "translateX(-50%)",
+    position: "relative",
+    // overflow: "hidden",
+    // overflow: "auto",
+    // overflowY: "scroll"
 }}
 
 

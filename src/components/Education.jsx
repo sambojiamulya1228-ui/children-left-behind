@@ -83,11 +83,39 @@ function Disability() {
             </div><br /><br />
 
 
-            <p style={{ paddingLeft: '50px' }} className="program-desc">We are committed to educating the families of children with disabilities and teaching families how to deal with and care for the child along with providing equipment or other essentials to meet the child’s needs. Many children have wide-ranging but treatable and often preventable medical problems. Almost none have a formal education, or any prospect of vocational opportunities</p>
+            {/* <p style={{ paddingLeft: '50px' }} */}
+                   <p style = {{
+    margin: "28px 264px auto",
+    width: "1164px", marginLeft: "176px"}}
+            className="program-desc">We are committed to educating the families of children with disabilities and teaching families how to deal with and care for the child along with providing equipment or other essentials to meet the child’s needs. Many children have wide-ranging but treatable and often preventable medical problems. Almost none have a formal education, or any prospect of vocational opportunities</p>
             <section className="category-section container">
                  {/* DESKTOP VIEW (no carousel) */}
-                 <div className="category-desktop">
-                   <div className="category-list">
+                 <div className="category-desktop"
+                 style={{
+                   width: "100vw",
+    height: "1px",
+    background: "#ebebeb",
+    position: "relative",
+    left: "50%",
+    transform: "translateX(-50%)"
+
+                 }}
+                 >
+                   <div className="category-list"
+                   
+                   style={{
+                     borderBottom : "1px solid #ebebeb",
+            // background : "#ebebeb",
+            paddingBottom: "3px",
+            width : "100vw",
+            // position : "relative",
+            // transform : "translate(-50%)",
+            left: "50%",
+            paddingTop: "10px",
+            paddingLeft: "204px"
+                   }}
+                   
+                   >
                      {categories.map((item, i) => (
                        <span
                          key={i}
@@ -125,8 +153,8 @@ function Disability() {
 
 
 
-                    <h2 style={{ fontWeight: '600', fontSize: '32px', lineHeight: '40px', letterSpacing: '2%' }} className="sub-title">Educational Outreach</h2><br></br>
-                    <p className="description">
+                    <h2 style={{ fontWeight: '600', fontSize: '32px', lineHeight: '40px', letterSpacing: '2%', marginLeft: "-20px" }} className="sub-title">Educational Outreach</h2><br></br>
+                    <p className="description" style={{marginLeft: "50px"}}>
                         We have partnered with local educators, colleges, and universities in Southwest Virginia to serve through our sister children’s organizations and through the schools’ established educational institutions in India.
                         Educational Outreach and Mission Trips to India: During our Educational Outreach, we visit schools in India and volunteer our skills and expertise in areas where foreign visitors are allowed. We believe it is very timely and important for us to serve the schools in South India.<br></br><br></br>
                         We are seeing how the promise and hope for a better future through education is becoming a reality as we work with at-risk children in the United States and developing world nations. We believe in the value of education to “open doors” for a new way of life for children and youth all around the globe.<br></br><br></br>

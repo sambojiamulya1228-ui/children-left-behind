@@ -32,16 +32,23 @@
 
 .category-desktop {
   display: block;
+  /* position: sticky; */
 }
 
 .category-mobile {
   display: none;
 }
 
+
+
+
+
+
 /* MOBILE ONLY */
 @media (max-width: 768px) {
   .category-desktop {
     display: none;
+    /* position: sticky; */
   }
 
   .category-mobile {

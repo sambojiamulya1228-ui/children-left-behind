@@ -51,10 +51,14 @@ const Mission = (props) => {
               >
                 Partners That Trusted Us to Amplify Impacts
               </h2>
+              <br></br>
+              <br></br>
               <p style={{ color: "#37323C" }}>
-                We have strategic partners, leaders from the private, public,
-                and NGO sectors, supporting children’s programs internationally.
+                We have strategic partners, leaders from the private, public, and
+            non-governmental organization (NGO) sectors, and subject matter experts in a variety of areas within children's programs internationally.
               </p>
+              <br></br>
+            
             </div>
           </div>
         </div>

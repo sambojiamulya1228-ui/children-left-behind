@@ -65,7 +65,10 @@ function ChildTrafficking() {
       </div><br /><br /><br />
 
       <div>
-        <p style={{ paddingLeft: '50px' }}>
+        {/* <p style={{ paddingLeft: '50px' }}> */}
+         <p style = {{
+    margin: "5px 264px auto",
+    width: "1164px", marginLeft: "176px"}}>
           We are committed to educating the families of children with disabilities
           and teaching families how to deal with and care for the child along with
           providing equipment or other essentials to meet the child’s needs. Many
@@ -78,8 +81,34 @@ function ChildTrafficking() {
       {/* 🌟 SCROLL MENU SECTION */}
        <section className="category-section container">
       {/* DESKTOP VIEW (no carousel) */}
-      <div className="category-desktop">
-        <div className="category-list">
+      <div className="category-desktop"
+      
+            style={{
+                   width: "100vw",
+    height: "1px",
+    background: "#ebebeb",
+    position: "relative",
+    left: "50%",
+    transform: "translateX(-50%)"
+
+                 }}
+      
+      >
+        <div className="category-list"
+        
+           style={{
+                     borderBottom : "1px solid #ebebeb",
+            // background : "#ebebeb",
+            paddingBottom: "3px",
+            width : "100vw",
+            // position : "relative",
+            // transform : "translate(-50%)",
+            left: "50%",
+            paddingTop: "10px",
+            paddingLeft: "204px"
+                   }}
+        
+        >
           {categories.map((item, i) => (
             <span
               key={i}
@@ -112,11 +141,11 @@ function ChildTrafficking() {
       {/* 🌟 CONTENT SECTION */}
       <section className="content-section">
         <div className="container">
-          <h2 style={{ fontWeight: "600", fontSize: "32px", lineHeight: "40px", letterSpacing: "2%" }} className="sub-title mt-5">
+          <h2 style={{ fontWeight: "600", fontSize: "32px", lineHeight: "40px", letterSpacing: "2%", marginLeft: "-20px"  }} className="sub-title mt-5">
             Act for child protection
           </h2>
           <br />
-          <p className="description">
+          <p className="description" style={{marginLeft: "50px"}}>
             Children Trafficking in India<br />
             What causes children trafficking? <br /><br />
 
@@ -138,7 +167,7 @@ function ChildTrafficking() {
             How to Stop Abuse and Exploitation
           </p>
           <br /><br />
-          <p className="description">
+          <p className="description" style={{marginLeft: "50px"}}>
             Violence against children happens everywhere, every day. To stop it, Children Left Behind fights to return children to civilian life and helps them rebuild their lives; supports safe haven shelters that care for street kids; trains and funds child protection teams to patrol areas where children are trafficked; develops innovative programs like Safe and Friendly Cities and Safe Schools; and supports groundbreaking national surveys to document the prevalence of violence against girls and boys and help governments build better protection systems.
           </p>
             <TiltCarousel/>

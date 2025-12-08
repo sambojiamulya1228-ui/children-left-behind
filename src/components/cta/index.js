@@ -12,11 +12,11 @@ const CtaSection = (props) => {
                 <div className="row justify-content-center align-items-center">
                     <div className="col-lg-4">
                         <div className="wpo-cta-text">
-                            <h2 className='text-white'>Lets build a 
-Safe Space together!</h2>
+                            <h5 className='text-white'>Lets build a <br></br>Safe Space together!</h5>
+                            {/* <br></br> */}
                             <p className='text-white mb-1'>Follow us on youtube for more live content</p>
-                            <div className="btns">
-                                <Link onClick={ClickHandler} to="/donate" className="theme-btn">
+                            <div className="btns" style={{paddingLeft: "14px"}} >
+                                <Link onClick={ClickHandler} to="/donate" className="theme-btn" >
                                      View Media <i class="fas fa-external-link-alt"></i>
                                 </Link>
                             </div>

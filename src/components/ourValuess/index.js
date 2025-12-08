@@ -13,9 +13,9 @@ const ValuesSection = () => {
                         Our Values
                     </p>
 
-                    <h2 className="fw-bold lh-base mb-3 ">
+                    <h5 className="fw-bold lh-base mb-3 ">
                         The values we embrace that truly <br /> reflect our beliefs.
-                    </h2>
+                    </h5>
 
                     <p className="text-muted">
                         Our values define the heart and spirit of Children Left Behind.

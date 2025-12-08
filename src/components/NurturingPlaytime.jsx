@@ -69,15 +69,44 @@ function NurturingPlaytime() {
 
 
             <div>
-                <p style={{ paddingLeft: '50px' }}>
+                {/* <p style={{ paddingLeft: '50px' }}> */}
+                 <p style = {{
+    margin: "80px 264px auto",
+    width: "1164px", marginLeft: "176px"}}>
                     We are committed to educating the families of children with disabilities and teaching families how to deal with and care for the child along with providing equipment or other essentials to meet the child’s needs. Many children have wide-ranging but treatable and often preventable medical problems. Almost none have a formal education, or any prospect of vocational opportunities.
                 </p>
             </div>
 
              <section className="category-section container">
       {/* DESKTOP VIEW (no carousel) */}
-      <div className="category-desktop">
-        <div className="category-list">
+      <div className="category-desktop"
+      
+         style={{
+                   width: "100vw",
+    height: "1px",
+    background: "#ebebeb",
+    position: "relative",
+    left: "50%",
+    transform: "translateX(-50%)"
+
+                 }}
+      
+      >
+        <div className="category-list"
+        
+         style={{
+                     borderBottom : "1px solid #ebebeb",
+            // background : "#ebebeb",
+            paddingBottom: "3px",
+            width : "100vw",
+            // position : "relative",
+            // transform : "translate(-50%)",
+            left: "50%",
+            paddingTop: "10px",
+            paddingLeft: "204px"
+                   }}
+        
+        >
           {categories.map((item, i) => (
             <span
               key={i}
@@ -114,24 +143,24 @@ function NurturingPlaytime() {
             {/* 🌟 CONTENT SECTION */}
             <section className="content-section">
                 <div className="container">
-                    <h2 style={{ width: "100%", overflow: "hidden", padding: "0px 0", background: "#fff", color: '#1C191E' }} className="sub-title">Nurturing playtime</h2><br></br>
-                    <p className="description">
+                    <h2 style={{ width: "100%", overflow: "hidden", padding: "13px 0", background: "#fff", color: '#1C191E', marginLeft: "-26px" }} className="sub-title">Nurturing playtime</h2><br></br>
+                    <p className="description" style={{marginLeft: "50px"}}>
                         Before- and after-school programs offer fun activities, educational experiences, and homework help. This programs for school-age children to continue learning outside of school.
-                    </p><br></br>
-                    <p className="description">
+                    </p>
+                    <p className="description" style={{marginLeft: "50px"}}>
                         Bala Bata School Programs/School<br></br>
                         Background:<br></br>
                         Most of the villages are now provided with State Govt. Primary Schools. Many of them are single teacher schools. The teachers are required to reside in the villages of their duty. But most of them do not. They reside in nearby towns for their own convenience and comfort and commute daily to the place of duty. Under the circumstances of such a situation, they rarely attend to their duties regularly and properly and very often even indulge in unauthorized absence for days together without being noticed. Even where the teachers attend to their duties, they lack the commitment required of their profession in the context of a rural situation. As a result children of parents who cannot afford to send their children to better equipped and better managed private educational institutions, are subjected to gross neglect and their future careers become jeopardized. Consequently there is increasing dropout rates at the primary level and those few who survive are not destined to go much far in the educational ladder because of their poor standard of attainment at the primary level. Children, what with their poverty, and the illiteracy and ignorance of their parents are the major casualties in this situation. Bala Bata Program is conceived against this background situation.
                     </p> <br></br>
 
 
-                    <p className="description">
+                    <p className="description" style= {{marginLeft: "-20px"}}  >
                         ACTIVITIES:
                     </p>
 
 
 
-                    <p className="description">
+                    <p className="description" style={{marginLeft: "50px"}}>
                         Bala Bata schools are opened for Children in the age group of 5 to 10 years.
                         They supplement and reinforce the education at the regular schools and are not a substitution for them.
                         The Children attend Bala Bata Schools during their off time of the regular schools and on holidays.

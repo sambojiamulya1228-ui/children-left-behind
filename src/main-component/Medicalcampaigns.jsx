@@ -71,14 +71,43 @@ function Medicalcampaigns() {
 
 
             <div>
-                <p style={{ paddingLeft: '50px' }}>
+                {/* <p style={{ paddingLeft: '50px' }}> */}
+                 <p style = {{
+    margin: "5px 264px auto",
+    width: "1164px", marginLeft: "176px"}}>
                     We are committed to educating the families of children with disabilities and teaching families how to deal with and care for the child along with providing equipment or other essentials to meet the child’s needs. Many children have wide-ranging but treatable and often preventable medical problems. Almost none have a formal education, or any prospect of vocational opportunities.
                 </p>
             </div>
             <section className="category-section container">
       {/* DESKTOP VIEW (no carousel) */}
-      <div className="category-desktop">
-        <div className="category-list">
+      <div className="category-desktop"
+      
+       style={{
+                   width: "100vw",
+    height: "1px",
+    background: "#ebebeb",
+    position: "relative",
+    left: "50%",
+    transform: "translateX(-50%)"
+
+                 }}
+      
+      >
+        <div className="category-list"
+        
+        style={{
+                     borderBottom : "1px solid #ebebeb",
+            // background : "#ebebeb",
+            paddingBottom: "3px",
+            width : "100vw",
+            // position : "relative",
+            // transform : "translate(-50%)",
+            left: "50%",
+            paddingTop: "10px",
+            paddingLeft: "204px"
+                   }}
+        
+        >
           {categories.map((item, i) => (
             <span
               key={i}
@@ -120,8 +149,8 @@ function Medicalcampaigns() {
 
 
 
-                    <h2 style={{ fontWeight: '600', fontSize: '32px', lineHeight: '40px', letterSpacing: '2%' }} className="sub-title">Medical campaigns</h2><br></br>
-                    <p className="description">
+                    <h2 style={{ fontWeight: '600', fontSize: '32px', lineHeight: '40px', letterSpacing: '2%', marginLeft: "-20px" }} className="sub-title">Medical campaigns</h2><br></br>
+                    <p className="description" style={{marginLeft: "50px"}}>
                         Children in developing countries suffer from many diseases that may be prevented with proper medical care and preventive medicine. Children Left Behind’s mission is to provide medical care and education to children and their families in developing countries.<br></br><br></br>
 
                         Children in developing countries suffer from many diseases that may be prevented with proper medical care and preventive medicine. Children Left Behind’s mission is to provide medical care and education to children and their families in developing countries.<br></br><br></br>
