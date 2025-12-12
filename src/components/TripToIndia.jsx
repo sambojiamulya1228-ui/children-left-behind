@@ -73,7 +73,7 @@ function TripToIndia() {
 
                  <p style = {{
     margin: "5px 264px auto 50px",
-    width: "1164px", marginLeft: "50px"}}>
+    width: "1164px", marginLeft: "172px"}}>
                     We are committed to educating the families of children with disabilities and teaching families how to deal with and care for the child along with providing equipment or other essentials to meet the child’s needs. Many children have wide-ranging but treatable and often preventable medical problems. Almost none have a formal education, or any prospect of vocational opportunities.
                 </p>
             </div>
@@ -104,7 +104,7 @@ function TripToIndia() {
             // transform : "translate(-50%)",
             left: "50%",
             paddingTop: "20px",
-            paddingLeft: "133px"
+            paddingLeft: "222px"
                    }}
 
         >
@@ -142,11 +142,7 @@ function TripToIndia() {
             {/* 🌟 CONTENT SECTION */}
             <section className="content-section">
                 <div className="container">
-                    {/* <h2 style={{ textAlign: 'center' }} className="title">Child Guidance Centre (CGC)</h2> */}
-
-                    {/* <p className="description">
-                        we are committed to educating the families of children with disabilities and teaching families how to deal with and care for the child along with providing equipment or other essentials to meet the child’s needs. Many children have wide-ranging but treatable and often preventable medical problems. Almost none have a formal education, or any prospect of vocational opportunities.
-                    </p> */}
+                 
 
                     <h2 style={{ width: "100%", overflow: "hidden", padding: "2px 0", background: "#fff", marginLeft: "-20px" }} className="sub-title mt-5">Mission of india</h2><br></br>
                     <p className="description"  style={{marginLeft: "50px"}}>

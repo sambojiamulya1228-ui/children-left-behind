@@ -212,7 +212,7 @@ function AwarenessPrograms() {
             // transform : "translate(-50%)",
             left: "50%",
             paddingTop: "20px",
-            paddingLeft: "133px"
+            paddingLeft: "204px"
                 }}
               >
                 {categories.map((item, i) => (
