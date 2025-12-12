@@ -16,7 +16,7 @@ const Hero3 = (props) => {
                         <div className="hero-layer-1">
                             <img src={Layer1} alt=""/>
                                 </div>
-                               <div className="hero-layer-2">
+                               <div className="hero-layer-2" >
                                <img src={Layer2} alt=""/>
                                </div>
                                <div className="hero-layer-3">
