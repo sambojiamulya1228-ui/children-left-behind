@@ -529,12 +529,14 @@ h2 {
 .program-image-box {
   flex: 1;
   order: 2; /* Desktop: image on right */
+ 
 }
 
 .program-image {
-  width: 100%;
-  max-width: 500px;
-  height: auto;
+ width: 100%;
+    max-width: 500px;
+    height: auto;
+   
 }
 
 /* CONTENT LEFT on DESKTOP */
@@ -550,13 +552,16 @@ h2 {
   line-height: 48px;
   font-weight: 700;
   margin-bottom: 18px;
+     
 }
 
 .program-desc {
   font-size: 16px;
   line-height: 26px;
   color: #444;
-  margin-bottom: 20px;
+  
+      margin-bottom: 20px;
+   
 }
 
 .program-btn {

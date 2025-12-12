@@ -6,6 +6,7 @@
 .ourmissionn{
      background: linear-gradient(180deg, #FFFFFF 0%, #FAF0FF 100%);
 }
+
 .about-page-hero{
     padding: 170px 0;
 }
@@ -16,6 +17,8 @@
     position: absolute;
     right: -10%;
         margin-bottom: -83px;
+  
+
 }
 @media(max-width:992px){
     .about-page-hero{

@@ -57,7 +57,11 @@ z-index:99;
 }
 .hero-style-3.hero .container{
     position: relative;
+    /* margin-top: 70px; */
+    /* margin-top: 85px;
+    margin-left: 93px; */
 }
+
 .hero-style-3.hero .container .hero-layer-1,
 .hero-style-3.hero .container .hero-layer-2,
 .hero-style-3.hero .container .hero-layer-3{
@@ -68,9 +72,10 @@ z-index:99;
     z-index: 999;
 }
 .hero-style-3.hero .container .hero-layer-1{
-        top: -15%;
-    width: 1100px;
-    margin: auto;
+          top: -15%;
+        /* margin-left: 127px; */
+    width:1100px;
+      margin: auto;
 }
 .hero-style-3.hero .container .hero-layer-2{
         top: 25%;
@@ -79,23 +84,25 @@ z-index:99;
     margin: auto;
 }
 .hero-style-3.hero .container .hero-layer-3{
-        top: 25%;
-        left:-12%;
-    width: 650px;
+        top: 210%;
+        left:-10%;
+    width: 900px;
     margin: auto;
 }
 @media(max-width:992px){
     .hero-style-3.hero .container .hero-layer-1{
         top: -20%;
         left: -10%;
-    width: 900px;
-    margin: auto;
+    width:900px;
+      margin: auto;
+    
     }
     .hero-style-3.hero .container .hero-layer-2{
         top: 20%;
         left: -5%;
     width:600px;
       margin: auto;
+
     }
     .hero-style-3.hero .container .hero-layer-3{
         top: 20%;
@@ -106,10 +113,10 @@ z-index:99;
 }
 @media(max-width:768px){
     .hero-style-3.hero .container .hero-layer-1{
-        top: -10%;
-        left: -20%;
-    width: 600px;
-    margin: auto;
+         top: -10%;
+    left: -20%;
+    width:600px;
+      margin: auto;
     }
     .hero-style-3.hero .container .hero-layer-2{
         top: 15%;

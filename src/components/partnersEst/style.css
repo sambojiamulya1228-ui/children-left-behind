@@ -10,7 +10,11 @@
   gap: 60px;
   flex-wrap: wrap;
 }
-
+/* img {
+    max-width: 100%;
+    margin-bottom: -106px;
+    margin-left: -77px;
+} */
 .info-col {
   flex: 1;
   min-width: 250px;

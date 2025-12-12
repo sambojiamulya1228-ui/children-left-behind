@@ -95,78 +95,7 @@ function StayInformed() {
                 </div>
             </section>
 
-            {/* <div className="stats-section">
-
-  <hr className="top-line" />
-
-  <div className="stats-row">
-    <p>Stats of India</p>
-    <p>Facts on Children in India</p>
-    <p>Hard truths about poverty in India</p>
-  </div>
-
-  <hr className="bottom-line" />
-
-</div> */}
-
-            {/* <div className="stats-section">
-
-                <hr className="top-line" />
-
-                <div className="scroll-wrapper">
-                    <div className="stats-row">
-                        <p>Stats of India</p>
-                        <p>Facts on Children in India</p>
-                        <p>Hard truths about poverty in India</p>
-                        <p>Stats of India</p>
-                        <p>Facts on Children in India</p>
-                        <p>Hard truths about poverty in India</p>
-                    </div>
-                </div>
-
-                <hr className="bottom-line" />
-
-            </div> */}
-
-            {/* <div className="stats-section">
-
-                <hr className="top-line" />
-
-                <div className="scroll-wrapper">
-                    <div className="stats-row">
-                        <p>Stats of India</p>
-                        <p>Facts on Children in India</p>
-                        <p>Hard truths about poverty in India</p>
-
-
-                        <p>Stats of India</p>
-                        <p>Facts on Children in India</p>
-                        <p>Hard truths about poverty in India</p>
-                    </div>
-                </div>
-
-                <hr className="bottom-line" />
-
-            </div> */}
-
-            {/* <div className="stats-section">
-  <hr className="top-line" />
-
-  <div className="scroll-wrapper">
-    <div className="stats-row">
-      <p>Stats of India</p>
-      <p>Facts on Children in India</p>
-      <p>Hard truths about poverty in India</p>
-
-    
-      <p>Stats of India</p>
-      <p>Facts on Children in India</p>
-      <p>Hard truths about poverty in India</p>
-    </div>
-  </div>
-
-  <hr className="bottom-line" />
-</div> */}
+           
 
 <div className="stats-section">
   <hr className="top-line" />
