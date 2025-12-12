@@ -163,7 +163,10 @@ function Medicalcampaigns() {
                         Children Left Behind is working hard to increase resources through donations, supplies, and medical education.
                         These resources assist in addressing the needs of children suffering from lack of medical resources.
                     </p>
+                    <div style={{marginLeft: "52px"}}>
                     <p>Some of the educational needs are:</p>
+                    </div>
+                    <div style={{marginLeft: "52px"}}>
                     <ul className="project-list">
                         <li>Prenatal care and pregnacy education</li>
                         <li>Causes and prevention of disabilities</li>
@@ -181,6 +184,9 @@ function Medicalcampaigns() {
                         <li>Progressive metabolic disorders</li>
                         <li>HIV & AIDS</li>
                     </ul>
+</div>
+                     <br></br>
+                    <br></br>
                       <TiltCarousel/>
                     <div style={{ display: "flex", justifyContent: "center" }}>
                         <img src={img} />

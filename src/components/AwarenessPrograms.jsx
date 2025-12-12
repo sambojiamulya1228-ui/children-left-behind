@@ -22,6 +22,7 @@ import w3 from "../images/icons/Marketing.svg"
 import v1 from "../images/icons/email.svg";
 import v2 from "../images/icons/mic.png";
 import v3 from "../images/icons/host.svg"
+import TiltCarousel from "./TiltCarousel"
 
 function AwarenessPrograms() {
   const navigate = useNavigate();
@@ -343,8 +344,11 @@ function AwarenessPrograms() {
 
 
           <div style={{ display: "flex", justifyContent: "center" }}>
-            <img src={img} alt="banner" style={{ width: "100%" }} />
+            {/* <img src={img} alt="banner" style={{ width: "100%" }} /> */}
+              <TiltCarousel/>
           </div>
+          <br></br>
+          <br></br>
         </div>
 
         <CtaSection ctaclass={"wpo-cta-area-2"} />

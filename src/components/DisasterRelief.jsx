@@ -241,6 +241,8 @@ function DisasterRelief() {
                     <p className="description" style={{marginLeft: "50px"}}>
                         Please support the people affected by the floods, for our partners as they work in this remote rural areas in India.
                     </p>
+                    <br></br>
+                    <br></br>
                       <TiltCarousel/>
                     <div style={{ display: "flex", justifyContent: "center" }}>
                         <img src={img} />

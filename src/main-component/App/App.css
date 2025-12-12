@@ -532,19 +532,34 @@ h2 {
  
 }
 
-.program-image {
+/* .program-image {
  width: 100%;
     max-width: 500px;
     height: auto;
    
+} */
+
+
+.program-image {
+    /* width: 8000px; */
+    max-width: 600px;
+    height: 564px;
+    margin-bottom: -70px;
+    /* margin-left: 49px; */
+    margin-right: -106px;
 }
 
 /* CONTENT LEFT on DESKTOP */
 .program-content {
   flex: 1;
   order: 1; /* Desktop: content on left */
-  margin-left: 50px;
-  margin-bottom: -16px;
+  /* margin-left: 50px;
+  margin-bottom: -16px; */
+
+
+ 
+    margin-left: 66px;
+    margin-bottom: -140px;
 }
 
 .program-title {

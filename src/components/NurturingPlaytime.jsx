@@ -173,6 +173,8 @@ function NurturingPlaytime() {
                         The Program lays the path for a new generation of educated.
                         View Bala-Bata 2016 Jan-Feb brochure
                     </p>
+                    <br></br>
+                    <br></br>
                       <TiltCarousel/>
                     <div style={{ display: "flex", justifyContent: "center" }}>
                         <img src={img} />

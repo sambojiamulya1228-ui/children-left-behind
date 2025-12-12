@@ -192,6 +192,8 @@ style={{
 
                         * The Child Guidance Center encompasses 14 boarding schools for children with disabilities, providing lodging and meals as well as medical care and education appropriate to the ability of each student. A 15th boarding school is currently under construction. See the Partnerships page for details.
                     </p>
+                    <br></br>
+                    <br></br>
 
                     <TiltCarousel/>
                     <div>

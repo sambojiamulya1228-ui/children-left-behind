@@ -170,6 +170,8 @@ function ChildTrafficking() {
           <p className="description" style={{marginLeft: "50px"}}>
             Violence against children happens everywhere, every day. To stop it, Children Left Behind fights to return children to civilian life and helps them rebuild their lives; supports safe haven shelters that care for street kids; trains and funds child protection teams to patrol areas where children are trafficked; develops innovative programs like Safe and Friendly Cities and Safe Schools; and supports groundbreaking national surveys to document the prevalence of violence against girls and boys and help governments build better protection systems.
           </p>
+          <br></br>
+          <br></br>
             <TiltCarousel/>
           <div style={{ display: "flex", justifyContent: "center" }}>
             <img src={img} />
