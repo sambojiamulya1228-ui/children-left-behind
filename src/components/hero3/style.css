@@ -6,7 +6,7 @@
 }
 .hero-style-3.hero .slide-title h2{
     line-height: 56px !important;
-   font-size: 46px !important;
+   font-size: 52px !important;
      /* font-family: "Awesome Serif"; */
      letter-spacing: 2%;
 }
@@ -37,7 +37,7 @@ z-index:99;
         width:100%;
     }
     .hero-style-3.hero .slide-title h2{
-        font-size: 46px !important;
+        font-size: 36px !important;
         line-height: 42px !important;
     }
     .hero-style-3.hero .slide-caption{
@@ -58,8 +58,8 @@ z-index:99;
 .hero-style-3.hero .container{
     position: relative;
     /* margin-top: 70px; */
-    margin-top: 85px;
-    margin-left: 93px;
+    /* margin-top: 85px;
+    margin-left: 93px; */
 }
 
 .hero-style-3.hero .container .hero-layer-1,
@@ -72,9 +72,9 @@ z-index:99;
     z-index: 999;
 }
 .hero-style-3.hero .container .hero-layer-1{
-          top: -34%;
-        margin-left: 127px;
-    width:1238px;
+          top: -15%;
+        /* margin-left: 127px; */
+    width:1100px;
       margin: auto;
 }
 .hero-style-3.hero .container .hero-layer-2{
@@ -84,23 +84,23 @@ z-index:99;
     margin: auto;
 }
 .hero-style-3.hero .container .hero-layer-3{
-        top: 25%;
-        left:-12%;
-    width: 650px;
+        top: 210%;
+        left:-10%;
+    width: 900px;
     margin: auto;
 }
 @media(max-width:992px){
     .hero-style-3.hero .container .hero-layer-1{
-        top: -34%;
-        margin-left: 127px;
-    width:1238px;
+        top: -20%;
+        left: -10%;
+    width:900px;
       margin: auto;
     
     }
     .hero-style-3.hero .container .hero-layer-2{
-        top: -34%;
-        margin-left: 127px;
-    width:1238px;
+        top: 20%;
+        left: -5%;
+    width:600px;
       margin: auto;
 
     }
@@ -113,9 +113,9 @@ z-index:99;
 }
 @media(max-width:768px){
     .hero-style-3.hero .container .hero-layer-1{
-         top: -34%;
-        margin-left: 127px;
-    width:1238px;
+         top: -10%;
+    left: -20%;
+    width:600px;
       margin: auto;
     }
     .hero-style-3.hero .container .hero-layer-2{

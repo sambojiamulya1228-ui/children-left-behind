@@ -31,7 +31,7 @@ function OurPartners() {
                        <div className="container child">
                            <div className="row align-items-center">
                                <div className="col-md-6" style={{paddingLeft: "96px"}}>
-                                   <h2 className="wpo-section-title about"style={{lineHeight:"56px !important"}}>Impacting through mission partners</h2>
+                                   <h2 className="wpo-section-title about">Impacting through mission partners</h2>
                                    <p>We offering programs are coordinated through our mission partners, an innovative network that connects children in need to the people and organizations prepared to help them.</p>
                                </div>
                                <div className="col-md-6">

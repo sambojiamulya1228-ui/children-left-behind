@@ -4,7 +4,7 @@ import imgHero from "../../images/about/About.png"
 
 const AboutHero = () => {
     return (
-        <section className="wpo-about-area about-page-hero" style={{padding:"-1px"}}>
+        <section className="wpo-about-area about-page-hero">
             <div className="container  ourmissionn">
                 <div className="row align-items-center">
                     <div className="col-md-6">
