@@ -48,19 +48,6 @@ function Disability() {
                     <img src={img1} alt="hero" className="program-image" />
                 </div>
 
-                {/* <div className="stats-section">
-
-  <hr className="top-line" />
-
-  <div className="stats-row">
-    <p>Stats of India</p>
-    <p>Facts on Children in India</p>
-    <p>Hard truths about poverty in India</p>
-  </div>
-
-  <hr className="bottom-line" />
-
-</div> */}
 
 
                 {/* LEFT CONTENT on Desktop — BELOW on Mobile */}

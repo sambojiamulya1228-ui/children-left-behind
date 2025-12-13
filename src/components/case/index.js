@@ -79,10 +79,7 @@ class CaseSlide extends Component {
                                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                 </p>
                             </div>
-                            {/* <div className="text-left">
-                                <h2>News and our media presence</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br /> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br /> veniam,</p>
-                            </div> */}
+                     
 
                             <div className="two-column-section">
 
@@ -135,14 +132,7 @@ class CaseSlide extends Component {
                                         <div className="wpo-case-img">
                                             <img style={{ borderRadius: '12px' }} src={cs1} alt="" />
                                         </div>
-                                        {/* <div className="wpo-case-content">
-                                        <div className="wpo-case-text-top">
-                                            <h2>Ensure Education for every poor children</h2>
-                                           
-                                           
-                                        </div>
                                        
-                                    </div> */}
                                     </div>
                                 </div>
                                 <div className="wpo-case-single">
@@ -150,14 +140,7 @@ class CaseSlide extends Component {
                                         <div className="wpo-case-img">
                                             <img style={{ borderRadius: '12px' }} src={cs2} alt="" />
                                         </div>
-                                        {/* <div className="wpo-case-content">
-                                        <div className="wpo-case-text-top">
-                                            <h2>Supply drinking water for the people</h2>
-                                            
-                                           
-                                        </div>
-                                       
-                                    </div> */}
+                                     
                                     </div>
                                 </div>
                                 <div className="wpo-case-single">

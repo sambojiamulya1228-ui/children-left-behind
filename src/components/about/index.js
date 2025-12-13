@@ -39,7 +39,6 @@ const About = (props) => {
                                 <h3>Sponsor a child for their welfare</h3>
                             </div>
                             <p>Sponsoring a child through Children Left Behind is the biggest contribution one can make and it requires very little. Won’t you help us make a difference in a child’s life?</p>
-                            {/* <p>Thing embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, </p> */}
                             <div className="btns">
                                 <a href="/donate" className="theme-btn" onClick={ClickHandler}>Learn More</a>
                                 
@@ -62,11 +61,9 @@ const About = (props) => {
                       <div className="col-lg-6 col-md-12 colsm-12">
                         <div className="wpo-about-text">
                             <div className="wpo-section-title ">
-                                {/* <span>What We Do?</span> */}
                                 <h3>Educating every child with disabilities</h3>
                             </div>
                             <p>We are actively involved in improving the lives and education of children with intellectual and physical disabilities in developing countries.</p>
-                            {/* <p>Thing embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, </p> */}
                             <div className="btns">
                                 <a href="/donate" className="theme-btn" onClick={ClickHandler}>Learn More</a>
                                 
@@ -79,11 +76,9 @@ const About = (props) => {
                       <div className="col-lg-6 col-md-12 col-sm-12">
                         <div className="wpo-about-text">
                             <div className="wpo-section-title">
-                                {/* <span>What We Do?</span> */}
                                 <h3>Educating every child with disabilities</h3>
                             </div>
                             <p>We are actively involved in improving the lives and education of children with intellectual and physical disabilities in developing countries.</p>
-                            {/* <p>Thing embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, </p> */}
                             <div className="btns">
                                 <a href="/donate" className="theme-btn" onClick={ClickHandler}>Learn More</a>
                                 

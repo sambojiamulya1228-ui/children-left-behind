@@ -99,8 +99,7 @@ function NurturingPlaytime() {
             // background : "#ebebeb",
             paddingBottom: "20px",
             width : "100vw",
-            // position : "relative",
-            // transform : "translate(-50%)",
+          
             left: "50%",
             paddingTop: "20px",
             paddingLeft: "222px"

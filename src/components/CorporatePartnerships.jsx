@@ -210,14 +210,12 @@ function CorporatePartnerships() {
                 style={{
                   display: "flex",
                   gap: "40px",
-                  // justifyContent: "center",
-                  // alignItems: "center",
+                
                    borderBottom : "1px solid #ebebeb",
             // background : "#ebebeb",
             paddingBottom: "20px",
             width : "100vw",
-            // position : "relative",
-            // transform : "translate(-50%)",
+           
             left: "50%",
             paddingTop: "20px",
             paddingLeft: "204px"

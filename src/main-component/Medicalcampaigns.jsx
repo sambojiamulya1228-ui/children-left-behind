@@ -97,11 +97,10 @@ function Medicalcampaigns() {
         
         style={{
                      borderBottom : "1px solid #ebebeb",
-            // background : "#ebebeb",
+           
             paddingBottom: "20px",
             width : "100vw",
-            // position : "relative",
-            // transform : "translate(-50%)",
+            
             left: "50%",
             paddingTop: "20px",
             paddingLeft: "222px"
@@ -142,11 +141,7 @@ function Medicalcampaigns() {
             {/* 🌟 CONTENT SECTION */}
             <section className="content-section">
                 <div className="container">
-                    {/* <h2 style={{ textAlign: 'center' }} className="title">Child Guidance Centre (CGC)</h2> */}
-
-                    {/* <p className="description">
-                        we are committed to educating the families of children with disabilities and teaching families how to deal with and care for the child along with providing equipment or other essentials to meet the child’s needs. Many children have wide-ranging but treatable and often preventable medical problems. Almost none have a formal education, or any prospect of vocational opportunities.
-                    </p> */}
+                  
 
 
 

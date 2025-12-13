@@ -1,38 +1,4 @@
-/* .resources-page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 80px 0;
-} */
 
-/* .image-wrapper {
-  position: relative;
-  width: fit-content;
-  margin: auto;
-} */
-
-/* .org-image {
-  width: 100%;
-  max-width: 700px;    */
-   
-  /* border-radius: 6px;
-  display: block;
-} */
-
-/* .coming-text {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  
-  font-weight: bold;
-  font-size: 48px;
-  color: white;
-  text-align: center; */
-
-  /* Optional: improves visibility on bright images */
-  /* text-shadow: 0px 0px 12px rgba(0,0,0,0.8);
-} */
 
 .subscribe-page {
   width: 100%;

@@ -153,22 +153,7 @@ function Statsofindia() {
                         It is also a study in contrasts. Monumental architecture and stunning cultural beauty exist side by side with slums overflowing with garbage and despair. And, while many Indians are enjoying the technological and economic booms that have characterized the nation over the last decade, millions of children still live in extreme poverty. Sponsorship through Children Left Behind gives hope to the poorest children and an opportunity  to participate in their country’s growth
                     </p>
 
-                    {/* <h2 style={headingStyle}>Hard Truths About Poverty In India</h2>
-                    <ul>
-                        <li>India has the third highest HIV/AIDS rate in the world, with an estimated 2.4 million people living  with the disease</li><br></br>
-                        <li>Due to widespread child malnutrition, more children under age 5 are underweight in India  than in any other country in the world. Nearly 45% of Indian children struggle with inadequate nutrition</li><br></br>
-                        <li>Over a quarter of India’s population lives below  the poverty line, meaning families and children in  poverty cannot afford basic goods</li> <br></br>
-                        <li>Close to 70% of India’s population lacks adequate sanitation and drainage systems. This creates a breeding ground for such diseases as hepatitis A & C, typhoid fever and bacterial infections</li><br></br>
-
-                    </ul> */}
-
-                    {/* <h2 style={headingStyle}>Facts on Children</h2>
-                    <ul>
-                        <li>Street children by definition are children who live on the streets without any adult care or supervision. They usually live and sleep on the streets because they do not have a home. They have only intermittent contact with parents or family (usually mother or sisters). Most of the time they live with other children in the city streets, or on the move.</li> <br></br>
-                        <li>Slum is a district of a city marked by poverty and inferior living conditions. Children in slum clusters live without a sense of security and stability. As their homes are mostly illegal they may face demolition by municipal authorities at any time. Families are then rehabilitated in remote places, serving them from social, economic and educational lifelines, so essential to their well being.</li> <br></br>
-                        <li>A child becomes an orphan if he or she does not have any parents. This could happen because of death or disappearance, abandonment or desertion, separation or loss of both parents. A foreign-born child is also an orphan if his or her sole or surviving parent is not able to take proper care of the child and has, in writing, irrevocably released the child for emigration and adoption.</li> <br></br>
-                        <li>Child abuse is the physical or psychological mistreatment of a child by his or her parents, guardians, or other adults. While there are many different types and degrees of abuse, the one thing they all have in common is the failure to look after a child’s long-term interest. The degree of the abuse, when in the child’s life it occurred and its duration have varying levels of impact on the child. This includes sexual, physical and emotional abuse. Sometimes children hide that they have been abused and may not reveal it until later. Abuse affects children differently and may cause emotional and behavioral problems that require the help of counseling and flexible parenting techniques to help the child heal. Child abuse can range from limited to intentional injury to a long term damage that could impair the development potential of a child. Included in the definition are neglect (acts of omission) and physical, psychological, pre sexual injury (act of commission) by a parent or a caregiver.</li> <br></br>
-                    </ul> */}
+                 
 
                     <h2 style={headingStyle}>Statistics Of India</h2>
                     <ul className="project-list">

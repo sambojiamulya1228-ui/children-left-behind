@@ -42,11 +42,7 @@ function Disability() {
   ];
     return (
         <>
-            {/* 🌟 HERO SECTION */}
-            {/* <section className="hero-section">
-                <div className="hero-overlay"></div>
-                <img src={heroImg} alt="Hero" className="hero-bg" />
-            </section> */}
+           
 
             <div className="program-hero">
 
@@ -77,8 +73,7 @@ function Disability() {
             </div><br /><br /><br />
 
             <div>
-                {/* <p style={{ paddingLeft: '50px' }}> */}
-                {/* <p style={{ textAlign: "center" , margin: 0}}> */}
+               
                <p style = {{
     margin: "5px 264px auto",
     width: "1164px", marginLeft: "172px"}}>
@@ -86,15 +81,7 @@ function Disability() {
                     We are committed to educating the families of children with disabilities and teaching families how to deal with and care for the child along with providing equipment or other essentials to meet the child’s needs. Many children have wide-ranging but treatable and often preventable medical problems. Almost none have a formal education, or any prospect of vocational opportunities.
                 </p>
             </div>
-            {/* <div className= "tabs-border"
-            style ={{
-width: "100vw",
-    height: "1px",
-    background: "#ebebeb",
-    position: "relative",
-    left: "50%",
-    transform: "translateX(-50%)"
-            }} /> */}
+      
             <section className="category-section container">
       {/* DESKTOP VIEW (no carousel) */}
       <div className="category-desktop"
@@ -103,15 +90,11 @@ style={{
     width: "100vw",
     height: "1px",
     background: "#ebebeb",
-    // top: "0",
-    // zIndex : "1000",
-    // paddingTop: "20px",
+  
     left: "50%",
     transform: "translateX(-50%)",
     position: "relative",
-    // overflow: "hidden",
-    // overflow: "auto",
-    // overflowY: "scroll"
+   
 }}
 
 

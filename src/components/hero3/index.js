@@ -30,7 +30,7 @@ const Hero3 = (props) => {
                                     <h2 style={{width:"525px"}} className=' px-4'>Reimagining the World for Children in Need</h2>
                                 </div>
                                 <div className="slide-subtitle">
-                                    {/* <p className=' px-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
+                                 
                                     <p className=' px-4'>A vision of children breaking past survival and flourishing into confident, capable, and purpose-driven individuals.</p>
 
                              

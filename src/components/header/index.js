@@ -7,7 +7,6 @@ import './style.css'
 const Header = () => {
 
   useEffect(() => {
-    // select all sub-menu parent dropdowns
     const dropdownParents = document.querySelectorAll("li:has(ul)");
 
     dropdownParents.forEach(parent => {
@@ -15,10 +14,8 @@ const Header = () => {
 
       submenuLinks.forEach(link => {
         link.addEventListener("click", () => {
-          // add class that hides dropdown
           parent.classList.add("closed");
 
-          // remove class after short delay so hover works again
           setTimeout(() => {
             parent.classList.remove("closed");
           }, 300);
