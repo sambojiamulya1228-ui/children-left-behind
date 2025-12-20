@@ -22,9 +22,11 @@ import w3 from "../images/icons/Marketing.svg"
 import v1 from "../images/icons/email.svg";
 import v2 from "../images/icons/mic.png";
 import v3 from "../images/icons/host.svg"
-import TiltCarousel from "./TiltCarousel"
+import TiltCarousel from "../components/TiltCarousel"
 
-function OneTimeGiving() {
+
+
+function CorporatePartnerships() {
   const navigate = useNavigate();
 
   const settings = {
@@ -44,10 +46,10 @@ function OneTimeGiving() {
   const gift = ["Gift Through Will", "Gifts Outside Will", "Gifts Now"]
   const Volunteering = ["Mission To India", "Medical Mission", "Educational Outreach Programs"]
 
-  const categories = [
+   const categories = [
     { name: "Sponsorship",  link: "/getinvolved" },
-    { name: "Corporate Partnerships", link: "/corporratepartnerships"},
-    { name: "Donation", special: true },
+    { name: "Corporate Partnerships", special: true},
+    { name: "Donation", link: "/ontimegiving" },
     { name: "Legacy Giving", link: "/legacygiving" },
     { name: "Volunteering", link: "/volunteering" },
     { name: "Awareness Programs", link: "/awarenessprograms" },
@@ -76,6 +78,7 @@ function OneTimeGiving() {
     },
   ];
 
+    
 
 
   return (
@@ -176,7 +179,7 @@ function OneTimeGiving() {
               <div className="involved-right">
                 <div className="involved-item">
                   <img src={ind} alt="Individual" style={{marginLeft:"-99px", width:"356px", heigth: "210px"}}/>
-                    <div style ={{marginLeft: "-86px"}}>
+                   <div style ={{marginLeft: "-86px"}}>
                   <p>Individual</p>
                   </div>
                 </div>
@@ -194,14 +197,13 @@ function OneTimeGiving() {
           <section className="category-section container">
             {/* DESKTOP VIEW (no carousel) */}
             <div className="category-desktop"
-            style={{
-              width: "100vw",
+            style={{ width: "100vw",
     height: "1px",
     background: "#ebebeb",
     position: "relative",
     left: "50%",
-    transform: "translateX(-50%)"
-            }}
+    transform: "translateX(-50%)"}}
+            
             >
               <div
                 className="category-list"
@@ -209,14 +211,15 @@ function OneTimeGiving() {
                   display: "flex",
                   gap: "40px",
                 
-                    borderBottom : "1px solid #ebebeb",
+                   borderBottom : "1px solid #ebebeb",
             // background : "#ebebeb",
-            paddingBottom: "10px",
+            paddingBottom: "20px",
             width : "100vw",
-          
+           
             left: "50%",
-            paddingTop: "10px",
+            paddingTop: "20px",
             paddingLeft: "204px"
+
                 }}
               >
                 {categories.map((item, i) => (
@@ -259,13 +262,9 @@ function OneTimeGiving() {
           </section>
           <br />
 
+      
 
-
-
-        
-
-
-
+       
           <h4
             style={{
               fontWeight: "600",
@@ -275,32 +274,13 @@ function OneTimeGiving() {
             }}
             className="sub-title"
           >
-            One-Time Giving
+            Corporate Partnership
           </h4>
-
-          <div className="d-flex flex-wrap mt-4 gap-2">
-            {ontime.map((item, index) => (
-              <span
-                key={index}
-                className="px-3 py-1 small d-flex align-items-center"
-                style={{
-                  fontSize: "12px",
-                  border: "2px solid #7D7188 ",
-                  borderRadius: "5px",
-                  gap: "6px",
-                  color: "#7D7188",
-                }}
-              >
-                <img
-                  src={img2}
-                  alt="check"
-                  style={{ width: "14px", height: "14px", objectFit: "contain" }}
-                />
-                {item}
-              </span>
-            ))}
-          </div><br />
-          <p>One-Time giving is a way to help children in the partnering organizations through single donation. This option entails not only for the make a difference aspect but as well for the event based, where your funds are offered on your special occasions like birthday or In the loving memory of your family member or any other events</p><br />
+          <br></br>
+          <br></br>
+          <h2 className="corporate-des">
+            Ranging from corporate volunteering at a local level, workplace giving<br /> programs to multi-faceted sponsor and partner programs. Here are some<br /> ways your company can be involved
+            <br /></h2><br />
 
           <div className="buttons_container">
             <button
@@ -324,18 +304,63 @@ function OneTimeGiving() {
                 height: '36px'
               }}
             >
-              Donate now
+              Get in Touch
             </button>
-          </div><br /><br />
+          </div>
+
+
+          <div className="three-sections">
+
+            {/* Box 1 */}
+            <div className="section-box">
+              <img style={{ height: '130px' }}
+                className="img-one"
+                src={w1}
+                alt="Workplace Giving"
+              /><br /><br />
+              <h3>Workplace Giving</h3><br />
+              <p>
+                Workplace giving is a simple yet powerful way for employees to assist children through the delivery of essential equipment and services to individual kids and children’s organizations. Once established, workplace giving provides the company, employees and Children Left Behind a low-cost, low-maintenance way to support children
+              </p>
+            </div>
+
+            {/* Box 2 */}
+            <div className="section-box">
+              <img style={{ height: '130px' }}
+                className="img-two"
+                src={w2}
+                alt="Corporate Fund-raising"
+              /><br /><br />
+              <h3>Corporate Fund-raising</h3><br />
+              <p>
+                fundraising materials, staff and supporter training, business supplies, advertising and marketing through to sponsoring one of Children Left Behind’s high profile events or iconic corporate functions. Sponsorship delivers a positive image to your company, helps you reach a new audience, increases brand awareness, motivates staff and customers and grows your brand equity.
+              </p>
+            </div>
+
+            {/* Box 3 */}
+            <div className="section-box">
+              <img style={{ height: '130px' }}
+                className="img-three"
+                src={w3}
+                alt="Cause-related Marketing"
+              /><br /><br />
+              <h3>Cause-related Marketing</h3><br />
+              <p>
+                Bringing marketing objectives of a company and the objectives of Children Left Behind to form a mutually beneficial partnership. This partnerships provide a unique selling point, engage staff and customers and brand equity while delivering a very real difference to children in your community.
+              </p>
+            </div>
+          </div><br />
+
          
 
 
           <div style={{ display: "flex", justifyContent: "center" }}>
             {/* <img src={img} alt="banner" style={{ width: "100%" }} /> */}
-             <TiltCarousel/>
+            <TiltCarousel/>  
           </div>
-          <br></br>
-          <br></br>
+         
+             <br></br>
+             <br></br>
         </div>
 
         <CtaSection ctaclass={"wpo-cta-area-2"} />
@@ -347,4 +372,4 @@ function OneTimeGiving() {
   );
 }
 
-export default OneTimeGiving; 
+export default CorporatePartnerships; 

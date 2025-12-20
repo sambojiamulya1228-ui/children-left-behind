@@ -11,7 +11,7 @@ import CtaSection from "../components/cta";
 import Needs from "../components/needs";
 import img1 from "../images/icons/Programs.svg"
 import { useNavigate } from "react-router-dom";
-import TiltCarousel from "./TiltCarousel";
+import TiltCarousel from "../components/TiltCarousel";
 function NurturingPlaytime() {
      const navigate = useNavigate();
 

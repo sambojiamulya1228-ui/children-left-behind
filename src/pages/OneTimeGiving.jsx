@@ -22,9 +22,9 @@ import w3 from "../images/icons/Marketing.svg"
 import v1 from "../images/icons/email.svg";
 import v2 from "../images/icons/mic.png";
 import v3 from "../images/icons/host.svg"
-import TiltCarousel from "./TiltCarousel"
+import TiltCarousel from "../components/TiltCarousel"
 
-function LegacyGiving() {
+function OneTimeGiving() {
   const navigate = useNavigate();
 
   const settings = {
@@ -44,14 +44,15 @@ function LegacyGiving() {
   const gift = ["Gift Through Will", "Gifts Outside Will", "Gifts Now"]
   const Volunteering = ["Mission To India", "Medical Mission", "Educational Outreach Programs"]
 
-   const categories = [
+  const categories = [
     { name: "Sponsorship",  link: "/getinvolved" },
     { name: "Corporate Partnerships", link: "/corporratepartnerships"},
-    { name: "Donation",link: "/ontimegiving"  },
-    { name: "Legacy Giving", special: true },
+    { name: "Donation", special: true },
+    { name: "Legacy Giving", link: "/legacygiving" },
     { name: "Volunteering", link: "/volunteering" },
     { name: "Awareness Programs", link: "/awarenessprograms" },
   ];
+
   const data = [
     {
       img: w1,
@@ -175,7 +176,7 @@ function LegacyGiving() {
               <div className="involved-right">
                 <div className="involved-item">
                   <img src={ind} alt="Individual" style={{marginLeft:"-99px", width:"356px", heigth: "210px"}}/>
-                  <div style ={{marginLeft: "-86px"}}>
+                    <div style ={{marginLeft: "-86px"}}>
                   <p>Individual</p>
                   </div>
                 </div>
@@ -193,21 +194,21 @@ function LegacyGiving() {
           <section className="category-section container">
             {/* DESKTOP VIEW (no carousel) */}
             <div className="category-desktop"
-            
-            style={{ width: "100vw",
+            style={{
+              width: "100vw",
     height: "1px",
     background: "#ebebeb",
     position: "relative",
     left: "50%",
-    transform: "translateX(-50%)"}}
+    transform: "translateX(-50%)"
+            }}
             >
               <div
                 className="category-list"
                 style={{
                   display: "flex",
                   gap: "40px",
-              
-
+                
                     borderBottom : "1px solid #ebebeb",
             // background : "#ebebeb",
             paddingBottom: "10px",
@@ -261,6 +262,10 @@ function LegacyGiving() {
 
 
 
+        
+
+
+
           <h4
             style={{
               fontWeight: "600",
@@ -270,18 +275,17 @@ function LegacyGiving() {
             }}
             className="sub-title"
           >
-            Legacy Giving
+            One-Time Giving
           </h4>
 
           <div className="d-flex flex-wrap mt-4 gap-2">
-            {gift.map((item, index) => (
+            {ontime.map((item, index) => (
               <span
                 key={index}
                 className="px-3 py-1 small d-flex align-items-center"
                 style={{
-                  // backgroundColor:'#F8F0FF',
                   fontSize: "12px",
-                  border: "1px solid #832AD1 ",
+                  border: "2px solid #7D7188 ",
                   borderRadius: "5px",
                   gap: "6px",
                   color: "#7D7188",
@@ -296,6 +300,8 @@ function LegacyGiving() {
               </span>
             ))}
           </div><br />
+          <p>One-Time giving is a way to help children in the partnering organizations through single donation. This option entails not only for the make a difference aspect but as well for the event based, where your funds are offered on your special occasions like birthday or In the loving memory of your family member or any other events</p><br />
+
           <div className="buttons_container">
             <button
               style={{
@@ -318,23 +324,15 @@ function LegacyGiving() {
                 height: '36px'
               }}
             >
-              Get in Touch
+              Donate now
             </button>
-          </div><br />
-
-          <p>Gifts and services in-kind are a vital element in enabling Children Left Behind to meet its vision and mission. Gifts of auction and raffle prizes for events, business skills such as legal or accountancy advice or technology and office items are all necessary to successfully deliver Children Left Behind’s vision and mission</p><br />
-          <p>By making charitable bequests or other “planned gifts,” you can leave an important legacy of caring that endures. Many people choose to leave a charity in their will because they want to support important causes. There are many of advantages to making a legacy gift to the Children Left Behind. Your gift will provide a child in need with food, a home, healthcare, education and a chance to succeed that would not be available to them with our your gift. While your gift may be measured in dollars, your impact on a child’s life is priceless. All gifts are tax deductible</p>
-          <p>Different gifts may benefit you in different ways. Find the perfect charitable bequest plan that meets your financial needs and fulfills your charitable interests:</p>
-          <li>Gifts Through Your Will – Remembering the Children Left Behind in your will can help you reduce estate taxes and ensure the work you care about will always continue.</li><br />
-          <li>Gifts Outside Your Will – Help our mission even faster by making a gift that avoids probate. Just name the Children Left Behind as beneficiary on appreciated securities, retirement plans, insurance policies or real estate</li><br />
-          <li>Gifts Now – Save on your current income taxes, and possibly reduce or eliminate estate tax and probate expenses when you make a gift to the Children Left Behind today.</li><br /><br />
+          </div><br /><br />
          
-
 
 
           <div style={{ display: "flex", justifyContent: "center" }}>
             {/* <img src={img} alt="banner" style={{ width: "100%" }} /> */}
-              <TiltCarousel/>
+             <TiltCarousel/>
           </div>
           <br></br>
           <br></br>
@@ -349,4 +347,4 @@ function LegacyGiving() {
   );
 }
 
-export default LegacyGiving; 
+export default OneTimeGiving; 

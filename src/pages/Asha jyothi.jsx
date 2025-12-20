@@ -1,13 +1,10 @@
-import React from "react";
+
 import PavaniLogo from "../images/icons/asha-logo.png";
-import Header from "../components/header";
 import LeftBG from "../images/icons/pavani-left.png";
 import RightBG from "../images/icons/pavani-right.png";
 import { useState, useEffect } from "react";
-import BlogSection from "../components/BlogSection"
 import CtaSection from "../components/cta";
 import Needs from "../components/needs";
-import PartnersEst from "../components/partnersEst";
 // import "../css";
 import "../App"
 function Ashajyothi() {

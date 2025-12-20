@@ -22,7 +22,7 @@ import w3 from "../images/icons/Marketing.svg"
 import v1 from "../images/icons/email.svg";
 import v2 from "../images/icons/mic.png";
 import v3 from "../images/icons/host.svg"
-import TiltCarousel from "./TiltCarousel"
+import TiltCarousel from "../components/TiltCarousel"
 
 function Volunteering() {
   const navigate = useNavigate();

@@ -2,7 +2,7 @@ import React from "react";
 import heroImg from "../images/icons/supporting-disability.png";
 import Header from "../components/header";
 import Slider from "react-slick";
-import TiltCarousel from "./TiltCarousel";
+import TiltCarousel from "../components/TiltCarousel";
 // import "../css";
 import "../App"
 import img from "../images/icons/Union.svg"

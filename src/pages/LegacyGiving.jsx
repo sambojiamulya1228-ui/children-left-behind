@@ -22,11 +22,9 @@ import w3 from "../images/icons/Marketing.svg"
 import v1 from "../images/icons/email.svg";
 import v2 from "../images/icons/mic.png";
 import v3 from "../images/icons/host.svg"
-import TiltCarousel from "./TiltCarousel"
+import TiltCarousel from "../components/TiltCarousel"
 
-
-
-function CorporatePartnerships() {
+function LegacyGiving() {
   const navigate = useNavigate();
 
   const settings = {
@@ -48,13 +46,12 @@ function CorporatePartnerships() {
 
    const categories = [
     { name: "Sponsorship",  link: "/getinvolved" },
-    { name: "Corporate Partnerships", special: true},
-    { name: "Donation", link: "/ontimegiving" },
-    { name: "Legacy Giving", link: "/legacygiving" },
+    { name: "Corporate Partnerships", link: "/corporratepartnerships"},
+    { name: "Donation",link: "/ontimegiving"  },
+    { name: "Legacy Giving", special: true },
     { name: "Volunteering", link: "/volunteering" },
     { name: "Awareness Programs", link: "/awarenessprograms" },
   ];
-
   const data = [
     {
       img: w1,
@@ -78,7 +75,6 @@ function CorporatePartnerships() {
     },
   ];
 
-    
 
 
   return (
@@ -179,7 +175,7 @@ function CorporatePartnerships() {
               <div className="involved-right">
                 <div className="involved-item">
                   <img src={ind} alt="Individual" style={{marginLeft:"-99px", width:"356px", heigth: "210px"}}/>
-                   <div style ={{marginLeft: "-86px"}}>
+                  <div style ={{marginLeft: "-86px"}}>
                   <p>Individual</p>
                   </div>
                 </div>
@@ -197,29 +193,29 @@ function CorporatePartnerships() {
           <section className="category-section container">
             {/* DESKTOP VIEW (no carousel) */}
             <div className="category-desktop"
+            
             style={{ width: "100vw",
     height: "1px",
     background: "#ebebeb",
     position: "relative",
     left: "50%",
     transform: "translateX(-50%)"}}
-            
             >
               <div
                 className="category-list"
                 style={{
                   display: "flex",
                   gap: "40px",
-                
-                   borderBottom : "1px solid #ebebeb",
-            // background : "#ebebeb",
-            paddingBottom: "20px",
-            width : "100vw",
-           
-            left: "50%",
-            paddingTop: "20px",
-            paddingLeft: "204px"
+              
 
+                    borderBottom : "1px solid #ebebeb",
+            // background : "#ebebeb",
+            paddingBottom: "10px",
+            width : "100vw",
+          
+            left: "50%",
+            paddingTop: "10px",
+            paddingLeft: "204px"
                 }}
               >
                 {categories.map((item, i) => (
@@ -262,9 +258,9 @@ function CorporatePartnerships() {
           </section>
           <br />
 
-      
 
-       
+
+
           <h4
             style={{
               fontWeight: "600",
@@ -274,14 +270,32 @@ function CorporatePartnerships() {
             }}
             className="sub-title"
           >
-            Corporate Partnership
+            Legacy Giving
           </h4>
-          <br></br>
-          <br></br>
-          <h2 className="corporate-des">
-            Ranging from corporate volunteering at a local level, workplace giving<br /> programs to multi-faceted sponsor and partner programs. Here are some<br /> ways your company can be involved
-            <br /></h2><br />
 
+          <div className="d-flex flex-wrap mt-4 gap-2">
+            {gift.map((item, index) => (
+              <span
+                key={index}
+                className="px-3 py-1 small d-flex align-items-center"
+                style={{
+                  // backgroundColor:'#F8F0FF',
+                  fontSize: "12px",
+                  border: "1px solid #832AD1 ",
+                  borderRadius: "5px",
+                  gap: "6px",
+                  color: "#7D7188",
+                }}
+              >
+                <img
+                  src={img2}
+                  alt="check"
+                  style={{ width: "14px", height: "14px", objectFit: "contain" }}
+                />
+                {item}
+              </span>
+            ))}
+          </div><br />
           <div className="buttons_container">
             <button
               style={{
@@ -306,61 +320,24 @@ function CorporatePartnerships() {
             >
               Get in Touch
             </button>
-          </div>
-
-
-          <div className="three-sections">
-
-            {/* Box 1 */}
-            <div className="section-box">
-              <img style={{ height: '130px' }}
-                className="img-one"
-                src={w1}
-                alt="Workplace Giving"
-              /><br /><br />
-              <h3>Workplace Giving</h3><br />
-              <p>
-                Workplace giving is a simple yet powerful way for employees to assist children through the delivery of essential equipment and services to individual kids and children’s organizations. Once established, workplace giving provides the company, employees and Children Left Behind a low-cost, low-maintenance way to support children
-              </p>
-            </div>
-
-            {/* Box 2 */}
-            <div className="section-box">
-              <img style={{ height: '130px' }}
-                className="img-two"
-                src={w2}
-                alt="Corporate Fund-raising"
-              /><br /><br />
-              <h3>Corporate Fund-raising</h3><br />
-              <p>
-                fundraising materials, staff and supporter training, business supplies, advertising and marketing through to sponsoring one of Children Left Behind’s high profile events or iconic corporate functions. Sponsorship delivers a positive image to your company, helps you reach a new audience, increases brand awareness, motivates staff and customers and grows your brand equity.
-              </p>
-            </div>
-
-            {/* Box 3 */}
-            <div className="section-box">
-              <img style={{ height: '130px' }}
-                className="img-three"
-                src={w3}
-                alt="Cause-related Marketing"
-              /><br /><br />
-              <h3>Cause-related Marketing</h3><br />
-              <p>
-                Bringing marketing objectives of a company and the objectives of Children Left Behind to form a mutually beneficial partnership. This partnerships provide a unique selling point, engage staff and customers and brand equity while delivering a very real difference to children in your community.
-              </p>
-            </div>
           </div><br />
 
+          <p>Gifts and services in-kind are a vital element in enabling Children Left Behind to meet its vision and mission. Gifts of auction and raffle prizes for events, business skills such as legal or accountancy advice or technology and office items are all necessary to successfully deliver Children Left Behind’s vision and mission</p><br />
+          <p>By making charitable bequests or other “planned gifts,” you can leave an important legacy of caring that endures. Many people choose to leave a charity in their will because they want to support important causes. There are many of advantages to making a legacy gift to the Children Left Behind. Your gift will provide a child in need with food, a home, healthcare, education and a chance to succeed that would not be available to them with our your gift. While your gift may be measured in dollars, your impact on a child’s life is priceless. All gifts are tax deductible</p>
+          <p>Different gifts may benefit you in different ways. Find the perfect charitable bequest plan that meets your financial needs and fulfills your charitable interests:</p>
+          <li>Gifts Through Your Will – Remembering the Children Left Behind in your will can help you reduce estate taxes and ensure the work you care about will always continue.</li><br />
+          <li>Gifts Outside Your Will – Help our mission even faster by making a gift that avoids probate. Just name the Children Left Behind as beneficiary on appreciated securities, retirement plans, insurance policies or real estate</li><br />
+          <li>Gifts Now – Save on your current income taxes, and possibly reduce or eliminate estate tax and probate expenses when you make a gift to the Children Left Behind today.</li><br /><br />
          
+
 
 
           <div style={{ display: "flex", justifyContent: "center" }}>
             {/* <img src={img} alt="banner" style={{ width: "100%" }} /> */}
-            <TiltCarousel/>  
+              <TiltCarousel/>
           </div>
-         
-             <br></br>
-             <br></br>
+          <br></br>
+          <br></br>
         </div>
 
         <CtaSection ctaclass={"wpo-cta-area-2"} />
@@ -372,4 +349,4 @@ function CorporatePartnerships() {
   );
 }
 
-export default CorporatePartnerships; 
+export default LegacyGiving; 

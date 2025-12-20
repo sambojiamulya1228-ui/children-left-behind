@@ -10,7 +10,7 @@ import Needs from "../components/needs";
 // import "../css";
 import "../App"
 
-import PartnersEst from "./partnersEst";
+import PartnersEst from "../components/partnersEst";
 
 function ChildCenter() {
 

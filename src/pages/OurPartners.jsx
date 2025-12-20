@@ -5,13 +5,13 @@ import Footer from "../components/footer";
 import BlogSection from "../components/BlogSection"
 import CtaSection from "../components/cta";
 import Needs from "../components/needs";
-import CounterSection from "./counter";
-import Mission from "./mission";
+import CounterSection from "../components/counter";
+import Mission from "../components/mission";
 // import "../css";
 import "../App"
-import TiltCarousel from "./TiltCarousel"
+import TiltCarousel from "../components/TiltCarousel"
 
-import PartnersEst from "./partnersEst";
+import PartnersEst from "../components/partnersEst";
 
 function OurPartners() {
 
