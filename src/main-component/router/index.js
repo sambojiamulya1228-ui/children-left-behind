@@ -1,5 +1,8 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, } from "react-router-dom";
+// import { BrowserRouter, Routes, Route, } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { useEffect } from "react";
+
 import Homepage from '../HomePage'
 import Homepage2 from '../HomePage2'
 import Homepage3 from '../HomePage3'
@@ -56,10 +59,20 @@ import HudhudCycloneRelief from "../../components/Resources/HudhudCyclone"
 
 
 const AllRoute = () => {
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+};
 
   return (
     <div className="App">
       <BrowserRouter>
+          <ScrollToTop />
         <Header />
         <Routes>
           <Route exact path='/' element={<Homepage3 />} />
