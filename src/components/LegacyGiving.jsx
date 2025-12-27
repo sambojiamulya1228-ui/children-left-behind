@@ -83,7 +83,7 @@ function LegacyGiving() {
       {/* 🌟 HERO SECTION */}
       <div className="program-hero">
         <div className="program-image-box">
-          <img src={img1} alt="hero" className="program-image" />
+          <img src={img1} alt="hero" className="program-image" style={{marginRight: "-94px", marginBottom: "-175px"}}/>
         </div>
 
         <div className="program-content">
