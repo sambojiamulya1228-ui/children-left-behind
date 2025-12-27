@@ -675,3 +675,90 @@ h2 {
   letter-spacing: 0.02em !important;                /* 2% → 0.02em */
   color: #7D7188 !important;                        /* Text color */
 }
+
+
+/* .App {
+  min-height: 100vh;
+} */
+
+
+/* ===================================== */
+/* ✅ MOBILE VIEW FIXES (SAFE OVERRIDES) */
+/* ===================================== */
+
+@media (max-width: 768px) {
+
+  /* 1️⃣ Prevent horizontal scroll everywhere */
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  /* 2️⃣ Fix pavani section overflow */
+  .pavani-description {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .pavani-wrapper {
+    padding: 50px 16px;
+  }
+
+  .pavani-title {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  /* 3️⃣ Kill absolute positioning impact on mobile */
+  .wpo-case-slider {
+    position: static;
+  }
+
+  .wpo-case-slider-content {
+    display: none !important;
+    position: static;
+  }
+
+  /* 4️⃣ Normalize ALL headings on mobile only */
+  h2 {
+    font-size: 20px !important;
+    line-height: 28px !important;
+    letter-spacing: 0.02em !important;
+    margin-bottom: 12px;
+  }
+
+  /* 5️⃣ Ensure sections stack cleanly */
+  .content-section,
+  .contact-section,
+  .involved-section {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  /* 6️⃣ Fix involved section spacing */
+  .involved-right {
+    gap: 32px;
+  }
+
+  .involved-item img {
+    width: 120px;
+    max-width: 100%;
+  }
+
+  /* 7️⃣ Cards / images behave like reference */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  /* 8️⃣ Remove negative margins that affect flow */
+  .stats-container {
+    margin-top: 0;
+  }
+
+}
