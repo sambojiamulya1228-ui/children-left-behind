@@ -12,7 +12,7 @@ const ResourcesPage = () => {
 
                 {/* ================= HEADER SECTION ================= */}
                 <div className="resource-header container">
-                    <div className="row align-items-center">
+                    <div className="row align-items-center" style={{backgroundColor: "#eccdec1a"}}>
                         <div className="col-lg-6">
                             <h2 className="res-title">Discover our brilliance<br></br> in the media<br></br> glossaries!</h2>
                             <br></br>

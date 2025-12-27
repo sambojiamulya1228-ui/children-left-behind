@@ -13,7 +13,7 @@ const About = () => {
       <div className="container needs" >
         <div className="row align-items-center" >
           {/* LEFT CONTENT */}
-          <div className="col-lg-6 col-md-12" style={{paddingLeft:"188px"}}>
+          <div className="col-lg-6 col-md-12" style={{paddingLeft:"188px", paddingTop: "200px"}}>
             <div style={{marginleft:"104px"}}>
               <br></br>
               <h5>
