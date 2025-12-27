@@ -59,15 +59,41 @@ import HudhudCycloneRelief from "../../components/Resources/HudhudCyclone"
 
 
 const AllRoute = () => {
+// const ScrollToTop = () => {
+//   const { pathname } = useLocation();
+
+//   useEffect(() => {
+//     window.scrollTo(0, 0);
+//   }, [pathname]);
+
+//   return null;
+// };
+
 const ScrollToTop = () => {
-  const { pathname } = useLocation();
+  const location = useLocation();
 
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
+    const scrollRoutes = new Set([
+      '/childcenter',
+      '/cards',
+      '/asha',
+      '/pavani',
+    ]);
+
+    // 🚫 Hard stop for all other routes
+    if (!scrollRoutes.has(location.pathname)) return;
+
+    // ✅ Scroll only for allowed routes
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth',
+    });
+  }, [location.pathname]);
 
   return null;
 };
+
 
   return (
     <div className="App">
